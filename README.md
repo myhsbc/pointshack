@@ -1,1 +1,1 @@
-# HSBC Hackathon Project - PointsHack
+## HSBC Hackathon Project - PointsHack
