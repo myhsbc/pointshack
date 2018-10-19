@@ -39,6 +39,7 @@
                                         </span>
                                         </v-btn>
                                     </div>
+                                    (Just click Sign In to continue)
                                 </v-flex>
                             </v-form>
                         </v-layout>
@@ -64,7 +65,7 @@
 .login {
     width:100vw;
     height:100vh;
-    background-image: url("https://images.pexels.com/photos/237325/pexels-photo-237325.jpeg");
+    background-image: url("https://images.pexels.com/photos/313782/pexels-photo-313782.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
 }

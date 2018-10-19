@@ -55,22 +55,20 @@
                     </v-toolbar>
                     <v-list three-line subheader>
                       <v-subheader>Tell us about yourself</v-subheader>
-                      <v-list-tile avatar>
-                        <v-list-tile-content>
-                          <v-list-tile-title>Content filtering</v-list-tile-title>
-                          <v-list-tile-sub-title>Set the content filtering level to restrict apps that can be downloaded</v-list-tile-sub-title>
-                        </v-list-tile-content>
-                      </v-list-tile>
-                      <v-list-tile avatar>
-                        <v-list-tile-content>
-                          <v-list-tile-title>Password</v-list-tile-title>
-                          <v-list-tile-sub-title>Require password for purchase or use password to restrict purchase</v-list-tile-sub-title>
-                        </v-list-tile-content>
-                      </v-list-tile>
+                      <v-layout justify-center>
+                        <v-flex xs12>
+                          <div class="text-xs-center">
+                            <v-btn outline color="indigo">
+                              <v-icon left>edit</v-icon>
+                                Pre-fill information
+                            </v-btn>
+                          </div>     
+                        </v-flex>
+                      </v-layout>
                     </v-list>
                     <v-divider></v-divider>
                     <v-list three-line subheader>
-                      <v-subheader>General</v-subheader>
+                      <v-subheader>Form</v-subheader>
                       <v-list-tile avatar>
                         <v-list-tile-action>
                           <v-checkbox v-model="notifications"></v-checkbox>
@@ -130,22 +128,20 @@
                     </v-toolbar>
                     <v-list three-line subheader>
                       <v-subheader>Tell us about yourself</v-subheader>
-                      <v-list-tile avatar>
-                        <v-list-tile-content>
-                          <v-list-tile-title>Content filtering</v-list-tile-title>
-                          <v-list-tile-sub-title>Set the content filtering level to restrict apps that can be downloaded</v-list-tile-sub-title>
-                        </v-list-tile-content>
-                      </v-list-tile>
-                      <v-list-tile avatar>
-                        <v-list-tile-content>
-                          <v-list-tile-title>Password</v-list-tile-title>
-                          <v-list-tile-sub-title>Require password for purchase or use password to restrict purchase</v-list-tile-sub-title>
-                        </v-list-tile-content>
-                      </v-list-tile>
+                      <v-layout justify-center>
+                        <v-flex xs12>
+                          <div class="text-xs-center">
+                            <v-btn outline color="indigo">
+                              <v-icon left>edit</v-icon>
+                                Pre-fill information
+                            </v-btn>
+                          </div>     
+                        </v-flex>
+                      </v-layout>
                     </v-list>
                     <v-divider></v-divider>
                     <v-list three-line subheader>
-                      <v-subheader>General</v-subheader>
+                      <v-subheader>Form</v-subheader>
                       <v-list-tile avatar>
                         <v-list-tile-action>
                           <v-checkbox v-model="notifications"></v-checkbox>

@@ -7,7 +7,14 @@
             <span class="headline">My Rewards Items</span>
           </div>
         </v-card-title>
-
+        <v-layout ml-3>
+          <v-flex xs12>
+              <v-btn flat color="primary">
+                  View catalogue
+              </v-btn>
+            </div>     
+          </v-flex>
+        </v-layout>
   <v-layout row>
     <v-flex xs12 mx-4>
         <v-container fluid grid-list-sm>
