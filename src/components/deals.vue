@@ -7,6 +7,7 @@
         :items="items"
         label="What are you looking for?"
         solo
+        id="search"
       ></v-select>
     </v-flex>
  
@@ -450,10 +451,15 @@
   }
 
   #map {
-    position: absolute;
+    position: fixed !important;
     width: 100vw;
     margin-top: -48px;
     padding: 80px 16px;
+  }
+
+  #search {
+    position: fixed;
+    width: 85%;
   }
 
   .cards {
