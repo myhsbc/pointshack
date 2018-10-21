@@ -17,20 +17,19 @@
               </v-card-text>
             </v-card>
           </v-flex>
-{{ info }}
+
           <v-layout justify-center>
             <v-flex xs12>
               <div class="text-xs-center">
-                <v-btn outline color="indigo">
+                <v-btn outline color="indigo" @click="getAccount">
                   <v-icon left>add</v-icon>
                     consent to link accounts
                 </v-btn>
               </div>     
             </v-flex>
           </v-layout>
-
     
-          <v-flex xs12>
+          <v-flex xs12 v-if="show">
             <v-card>
               <v-card-text primary-title>
                 <div class="title">Refinance my mortgage</div>
@@ -103,7 +102,7 @@
             </v-card>
           </v-flex>
 
-          <v-flex xs12>
+          <v-flex xs12 v-if="show">
             <v-card>
               <v-card-text primary-title>
                 <div class="title">Credit card balance transfer</div>
@@ -176,7 +175,7 @@
             </v-card>
           </v-flex>
 
-          <v-flex xs12>
+          <v-flex xs12 v-if="show">
             <v-card>
               <v-card-text primary-title>
                 <div class="title">Open Everyday Global Account</div>
@@ -191,7 +190,7 @@
             </v-card>
           </v-flex>
 
-          <v-flex xs12>
+          <v-flex xs12 v-if="show">
             <v-card>
               <v-card-text primary-title>
                 <div class="title">Transfer my salary credit</div>
@@ -202,6 +201,88 @@
                 <v-spacer></v-spacer>
                 <v-btn flat>More info</v-btn>
                 <v-btn flat color="purple">Apply now</v-btn>
+              </v-card-actions>
+            </v-card>
+          </v-flex>
+
+          <v-flex xs12>
+            <v-card>
+              <v-card-text primary-title>
+                <div class="title">Apply a Home Loan</div>
+                <div class="red--text">60,000 bonus points</div>
+              </v-card-text>
+              <v-divider light></v-divider>
+              <v-card-actions>
+                <v-spacer></v-spacer>
+                <v-btn flat>More info</v-btn>
+                <v-dialog v-model="homeLoan" fullscreen hide-overlay transition="dialog-bottom-transition">
+                  <v-btn flat color="purple" slot="activator">Get pre-approval</v-btn>
+                  <v-card>
+                    <v-toolbar dark color="primary">
+                      <v-btn icon dark @click.native="homeLoan = false">
+                        <v-icon>close</v-icon>
+                      </v-btn>
+                      <v-toolbar-title>Home Loan Pre-approval</v-toolbar-title>
+                      <v-spacer></v-spacer>
+                      <v-toolbar-items>
+                        <v-btn dark flat @click.native="homeLoan = false">Save</v-btn>
+                      </v-toolbar-items>
+                    </v-toolbar>
+                    <v-list three-line subheader>
+                      <v-subheader>Tell us about yourself</v-subheader>
+                      <v-layout justify-center>
+                        <v-flex xs12>
+                          <div class="text-xs-center">
+                            <v-btn outline color="indigo" @click="getKYC">
+                              <v-icon left>edit</v-icon>
+                                Pre-fill information
+                            </v-btn>
+                          </div>     
+                        </v-flex>
+                      </v-layout>
+                    </v-list>
+                    <v-divider></v-divider>
+
+        <v-card-text>
+          <v-container grid-list-md>
+            <v-layout wrap>
+              <v-flex xs12 sm6 md4>
+                <v-text class="title">Form</v-text>
+              </v-flex>
+              <v-flex xs12 sm6 md4>
+                <v-text-field label="Question 1" required></v-text-field>
+              </v-flex>
+              <v-flex xs12 sm6 md4>
+                <v-text-field label="Question 2" hint="example of helper text only on focus"></v-text-field>
+              </v-flex>
+              <v-flex xs12 sm6 md4>
+                <v-text-field
+                  label="Question 3"
+                  hint="example of persistent helper text"
+                  persistent-hint
+                  required
+                ></v-text-field>
+              </v-flex>
+              <v-flex xs12>
+                <v-text-field label="Question 4" required></v-text-field>
+              </v-flex>
+              <v-flex xs12>
+                <v-text-field label="Question 5" type="password" required></v-text-field>
+              </v-flex>
+              <v-flex xs12 sm6>
+                <v-autocomplete
+                  :items="['Skiing', 'Ice hockey', 'Soccer', 'Basketball', 'Hockey', 'Reading', 'Writing', 'Coding', 'Basejump']"
+                  label="Interests"
+                  multiple
+                  chips
+                ></v-autocomplete>
+              </v-flex>
+            </v-layout>
+          </v-container>
+          <small>*indicates required field</small>
+        </v-card-text>
+                  </v-card>
+                </v-dialog>                
               </v-card-actions>
             </v-card>
           </v-flex>
@@ -323,6 +404,8 @@
         data () {
             return {
                 info: null,
+                show: false,
+                showKYC: false,
                 homeLoan: false,
                 creditCard: false,
                 items: [
@@ -378,10 +461,19 @@
                 ]
             }
         },
-        mounted () {
-          axios
-            .get('https://hsbcpointshack.firebaseapp.com/static/data/account')
-            .then(response => (this.info = response))
+        methods: {
+          getAccount: function () {
+            axios
+              .get('https://raw.githubusercontent.com/myhsbc/pointshack/master/static/data/account.json')
+              .then(response => (this.info = response));
+            this.show = true;
+          },
+          getKYC: function () {
+            axios
+              .get('https://raw.githubusercontent.com/myhsbc/pointshack/master/static/data/kyc.json')
+              .then(response => (this.info = response));
+            this.showKYC = true;
+          }          
         }
     }
 </script>

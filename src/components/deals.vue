@@ -26,7 +26,7 @@
               </v-card-text>
               <v-card-actions>
                 <v-spacer></v-spacer>
-                <v-btn color="white" class="purple--text">Personalise offers</v-btn>
+                <v-btn color="white" class="purple--text" @click="getTransactions">Personalise offers</v-btn>
                 <v-spacer></v-spacer>
               </v-card-actions>           
             </v-card>
@@ -373,9 +373,11 @@
 </template>
 
 <script>
+  import axios from 'axios';
   export default {
     data() {
       return {
+        info: null,
         items: ['Electronics', 'Furnitures', 'Entertainments', 'Travel'], 
         coupons: [{
             id: 1,
@@ -429,6 +431,13 @@
         scrollwheel: true,
         zoom: 14,
       });
+    },
+    methods: {
+      getTransactions: function () {
+        axios
+          .get('https://raw.githubusercontent.com/myhsbc/pointshack/master/static/data/transactions.json')
+          .then(response => (this.info = response))
+      }
     }
   }
 

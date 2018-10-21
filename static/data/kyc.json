@@ -1,0 +1,2572 @@
+[
+    {
+      "kycNumber": 1012,
+      "kycType": "NEW",
+      "kycProcessStatus": "test",
+      "banks": {
+        "bankId": 1001,
+        "bankRegNumber": "MIDLGB21",
+        "bankIdentificationCode": "1001",
+        "bankName": "HSBC",
+        "country": "UK",
+        "registeredAddress": "3, The Square, Beeston, NG9 2AN, UK",
+        "makerDate": 1528966679000,
+        "makerId": "1"
+      },
+      "sex": "m",
+      "forenames": "test",
+      "lastname": "test",
+      "title": "mr",
+      "dob": 1524396142000,
+      "maritalStatus": "s",
+      "nationality": "test",
+      "residenceCountry": "string",
+      "birthPlace": "test",
+      "countryCodeOfBirth": "test",
+      "motherMaidenName": "test",
+      "educationLevel": "test",
+      "headOfHouseHoldInd": "test",
+      "employmentStatus": "A",
+      "proofOfIdentityType": "string",
+      "proofOfIdentityIssuer": "string",
+      "proofOfIdentityNumber": "string",
+      "proofOfIdentityExpiryDate": 1524396142000,
+      "proofOfIdentityVerified": "verified",
+      "proofOfIdentityDocument": {
+        "documentId": 2,
+        "parties": {
+          "partyId": 100000001,
+          "partyType": "P",
+          "banks": {
+            "bankId": 1001,
+            "bankRegNumber": "MIDLGB21",
+            "bankIdentificationCode": "1001",
+            "bankName": "HSBC",
+            "country": "UK",
+            "registeredAddress": "3, The Square, Beeston, NG9 2AN, UK",
+            "makerDate": 1528966679000,
+            "makerId": "1"
+          },
+          "description": "Jemma Hamilton",
+          "makerDate": 1517587025000,
+          "makerId": "1",
+          "person": {
+            "partyId": 100000001,
+            "bankId": 1001,
+            "personTypeId": 100000001,
+            "ssn": "JJ920610C",
+            "sex": "f",
+            "foreName": "Julia",
+            "middleName": "Natasha",
+            "lastName": "Cooper",
+            "deceased": "N",
+            "active": "Y",
+            "birthPlace": "uk",
+            "motherMaidenName": "Bethany",
+            "spouseName": "",
+            "militaryRank": "",
+            "dependents": "0",
+            "educationLevel": "post_graduate",
+            "headOfHouseHoldInd": "False",
+            "currentEmploymentStartDate": 1522993823000,
+            "jobTitle": "",
+            "job": "",
+            "originatingBranchId": 10000401,
+            "preferrredBranchId": 10000401,
+            "responsibleBranchId": 10000401,
+            "makerDate": 1522993823000,
+            "makerId": "1"
+          },
+          "organization": {
+            "partyId": 100000001,
+            "bankId": 1001,
+            "organizationName": "rdr",
+            "organizationTypeId": 200000001,
+            "registrationNumber": "77-6780962",
+            "active": "Y",
+            "creditReviewTimeFrame": 1525434441000,
+            "organizationBranchId": 33,
+            "preferredBranchId": 10000210,
+            "responsibleBranchId": 10000210,
+            "numberOfEmployees": 22,
+            "financialReportsURL": "aaa",
+            "makerDate": 1525434441000,
+            "makerId": "1"
+          },
+          "emails": [
+            {
+              "emailsPK": {
+                "partyId": 100000001,
+                "emailType": "O"
+              },
+              "bankId": 1001,
+              "emailId": "wsxcde@gmail.com",
+              "active": "Y",
+              "makerDate": 1525434441000,
+              "makerId": "1"
+            },
+            {
+              "emailsPK": {
+                "partyId": 100000001,
+                "emailType": "P"
+              },
+              "bankId": 1001,
+              "emailId": "mddsabc123@gmail.com",
+              "active": "N",
+              "makerDate": 1522228627000,
+              "makerId": "2"
+            }
+          ],
+          "phoneNumbers": [
+            {
+              "phoneNumberId": 110000006,
+              "partyId": 100000001,
+              "bankId": 1001,
+              "type": "R",
+              "phoneNumber": "05678567567",
+              "active": "y",
+              "makerDate": 1533047936000,
+              "makerId": "1"
+            }
+          ]
+        },
+        "documentName": "xxx",
+        "documentTypeId": 1,
+        "documentOriginalFileName": "xxx",
+        "documentLocation": "xxx",
+        "reference": "xxx",
+        "bankId": 1001,
+        "makerDate": 1532237701000,
+        "makerId": "1"
+      },
+      "proofOfAddressType": "string",
+      "proofOfAddressVerified": "verified",
+      "proofOfAddressDocument": {
+        "documentId": 3,
+        "parties": {
+          "partyId": 100000001,
+          "partyType": "P",
+          "banks": {
+            "bankId": 1001,
+            "bankRegNumber": "MIDLGB21",
+            "bankIdentificationCode": "1001",
+            "bankName": "HSBC",
+            "country": "UK",
+            "registeredAddress": "3, The Square, Beeston, NG9 2AN, UK",
+            "makerDate": 1528966679000,
+            "makerId": "1"
+          },
+          "description": "Jemma Hamilton",
+          "makerDate": 1517587025000,
+          "makerId": "1",
+          "person": {
+            "partyId": 100000001,
+            "bankId": 1001,
+            "personTypeId": 100000001,
+            "ssn": "JJ920610C",
+            "sex": "f",
+            "foreName": "Julia",
+            "middleName": "Natasha",
+            "lastName": "Cooper",
+            "deceased": "N",
+            "active": "Y",
+            "birthPlace": "uk",
+            "motherMaidenName": "Bethany",
+            "spouseName": "",
+            "militaryRank": "",
+            "dependents": "0",
+            "educationLevel": "post_graduate",
+            "headOfHouseHoldInd": "False",
+            "currentEmploymentStartDate": 1522993823000,
+            "jobTitle": "",
+            "job": "",
+            "originatingBranchId": 10000401,
+            "preferrredBranchId": 10000401,
+            "responsibleBranchId": 10000401,
+            "makerDate": 1522993823000,
+            "makerId": "1"
+          },
+          "organization": {
+            "partyId": 100000001,
+            "bankId": 1001,
+            "organizationName": "rdr",
+            "organizationTypeId": 200000001,
+            "registrationNumber": "77-6780962",
+            "active": "Y",
+            "creditReviewTimeFrame": 1525434441000,
+            "organizationBranchId": 33,
+            "preferredBranchId": 10000210,
+            "responsibleBranchId": 10000210,
+            "numberOfEmployees": 22,
+            "financialReportsURL": "aaa",
+            "makerDate": 1525434441000,
+            "makerId": "1"
+          },
+          "emails": [
+            {
+              "emailsPK": {
+                "partyId": 100000001,
+                "emailType": "O"
+              },
+              "bankId": 1001,
+              "emailId": "wsxcde@gmail.com",
+              "active": "Y",
+              "makerDate": 1525434441000,
+              "makerId": "1"
+            },
+            {
+              "emailsPK": {
+                "partyId": 100000001,
+                "emailType": "P"
+              },
+              "bankId": 1001,
+              "emailId": "mddsabc123@gmail.com",
+              "active": "N",
+              "makerDate": 1522228627000,
+              "makerId": "2"
+            }
+          ],
+          "phoneNumbers": [
+            {
+              "phoneNumberId": 110000006,
+              "partyId": 100000001,
+              "bankId": 1001,
+              "type": "R",
+              "phoneNumber": "05678567567",
+              "active": "y",
+              "makerDate": 1533047936000,
+              "makerId": "1"
+            }
+          ]
+        },
+        "documentName": "XXXX",
+        "documentTypeId": 1,
+        "documentOriginalFileName": "XXXX",
+        "documentLocation": "XXXX",
+        "reference": "XXXX",
+        "bankId": 1001,
+        "makerDate": 1518168828000,
+        "makerId": "1"
+      },
+      "proofOfAddressAddressLine1": "string",
+      "proofOfAddressAddressLine2": "string",
+      "proofOfAddressPostCode": "string",
+      "correspondenceSameAsProofOfAddress": "test",
+      "customerRiskScoreStatus": "ToGenerate",
+      "makerDate": 1524396142000,
+      "makerId": "1"
+    },
+    {
+      "kycNumber": 1013,
+      "kycType": "NEW",
+      "kycProcessStatus": "a",
+      "banks": {
+        "bankId": 1001,
+        "bankRegNumber": "MIDLGB21",
+        "bankIdentificationCode": "1001",
+        "bankName": "HSBC",
+        "country": "UK",
+        "registeredAddress": "3, The Square, Beeston, NG9 2AN, UK",
+        "makerDate": 1528966679000,
+        "makerId": "1"
+      },
+      "sex": "m",
+      "forenames": "ssss",
+      "lastname": "abba",
+      "title": "qw",
+      "dob": 1523006091000,
+      "maritalStatus": "s",
+      "nationality": "qa",
+      "residenceCountry": "string",
+      "birthPlace": "Colombo",
+      "countryCodeOfBirth": "SL",
+      "motherMaidenName": "ann",
+      "educationLevel": "PHD",
+      "headOfHouseHoldInd": "aaa",
+      "employmentStatus": "A",
+      "proofOfIdentityType": "string",
+      "proofOfIdentityIssuer": "qa",
+      "proofOfIdentityNumber": "string",
+      "proofOfIdentityExpiryDate": 1523006091000,
+      "proofOfIdentityVerified": "verified",
+      "proofOfIdentityDocument": {
+        "documentId": 2,
+        "parties": {
+          "partyId": 100000001,
+          "partyType": "P",
+          "banks": {
+            "bankId": 1001,
+            "bankRegNumber": "MIDLGB21",
+            "bankIdentificationCode": "1001",
+            "bankName": "HSBC",
+            "country": "UK",
+            "registeredAddress": "3, The Square, Beeston, NG9 2AN, UK",
+            "makerDate": 1528966679000,
+            "makerId": "1"
+          },
+          "description": "Jemma Hamilton",
+          "makerDate": 1517587025000,
+          "makerId": "1",
+          "person": {
+            "partyId": 100000001,
+            "bankId": 1001,
+            "personTypeId": 100000001,
+            "ssn": "JJ920610C",
+            "sex": "f",
+            "foreName": "Julia",
+            "middleName": "Natasha",
+            "lastName": "Cooper",
+            "deceased": "N",
+            "active": "Y",
+            "birthPlace": "uk",
+            "motherMaidenName": "Bethany",
+            "spouseName": "",
+            "militaryRank": "",
+            "dependents": "0",
+            "educationLevel": "post_graduate",
+            "headOfHouseHoldInd": "False",
+            "currentEmploymentStartDate": 1522993823000,
+            "jobTitle": "",
+            "job": "",
+            "originatingBranchId": 10000401,
+            "preferrredBranchId": 10000401,
+            "responsibleBranchId": 10000401,
+            "makerDate": 1522993823000,
+            "makerId": "1"
+          },
+          "organization": {
+            "partyId": 100000001,
+            "bankId": 1001,
+            "organizationName": "rdr",
+            "organizationTypeId": 200000001,
+            "registrationNumber": "77-6780962",
+            "active": "Y",
+            "creditReviewTimeFrame": 1525434441000,
+            "organizationBranchId": 33,
+            "preferredBranchId": 10000210,
+            "responsibleBranchId": 10000210,
+            "numberOfEmployees": 22,
+            "financialReportsURL": "aaa",
+            "makerDate": 1525434441000,
+            "makerId": "1"
+          },
+          "emails": [
+            {
+              "emailsPK": {
+                "partyId": 100000001,
+                "emailType": "O"
+              },
+              "bankId": 1001,
+              "emailId": "wsxcde@gmail.com",
+              "active": "Y",
+              "makerDate": 1525434441000,
+              "makerId": "1"
+            },
+            {
+              "emailsPK": {
+                "partyId": 100000001,
+                "emailType": "P"
+              },
+              "bankId": 1001,
+              "emailId": "mddsabc123@gmail.com",
+              "active": "N",
+              "makerDate": 1522228627000,
+              "makerId": "2"
+            }
+          ],
+          "phoneNumbers": [
+            {
+              "phoneNumberId": 110000006,
+              "partyId": 100000001,
+              "bankId": 1001,
+              "type": "R",
+              "phoneNumber": "05678567567",
+              "active": "y",
+              "makerDate": 1533047936000,
+              "makerId": "1"
+            }
+          ]
+        },
+        "documentName": "xxx",
+        "documentTypeId": 1,
+        "documentOriginalFileName": "xxx",
+        "documentLocation": "xxx",
+        "reference": "xxx",
+        "bankId": 1001,
+        "makerDate": 1532237701000,
+        "makerId": "1"
+      },
+      "proofOfAddressType": "p",
+      "proofOfAddressVerified": "verified",
+      "proofOfAddressDocument": {
+        "documentId": 3,
+        "parties": {
+          "partyId": 100000001,
+          "partyType": "P",
+          "banks": {
+            "bankId": 1001,
+            "bankRegNumber": "MIDLGB21",
+            "bankIdentificationCode": "1001",
+            "bankName": "HSBC",
+            "country": "UK",
+            "registeredAddress": "3, The Square, Beeston, NG9 2AN, UK",
+            "makerDate": 1528966679000,
+            "makerId": "1"
+          },
+          "description": "Jemma Hamilton",
+          "makerDate": 1517587025000,
+          "makerId": "1",
+          "person": {
+            "partyId": 100000001,
+            "bankId": 1001,
+            "personTypeId": 100000001,
+            "ssn": "JJ920610C",
+            "sex": "f",
+            "foreName": "Julia",
+            "middleName": "Natasha",
+            "lastName": "Cooper",
+            "deceased": "N",
+            "active": "Y",
+            "birthPlace": "uk",
+            "motherMaidenName": "Bethany",
+            "spouseName": "",
+            "militaryRank": "",
+            "dependents": "0",
+            "educationLevel": "post_graduate",
+            "headOfHouseHoldInd": "False",
+            "currentEmploymentStartDate": 1522993823000,
+            "jobTitle": "",
+            "job": "",
+            "originatingBranchId": 10000401,
+            "preferrredBranchId": 10000401,
+            "responsibleBranchId": 10000401,
+            "makerDate": 1522993823000,
+            "makerId": "1"
+          },
+          "organization": {
+            "partyId": 100000001,
+            "bankId": 1001,
+            "organizationName": "rdr",
+            "organizationTypeId": 200000001,
+            "registrationNumber": "77-6780962",
+            "active": "Y",
+            "creditReviewTimeFrame": 1525434441000,
+            "organizationBranchId": 33,
+            "preferredBranchId": 10000210,
+            "responsibleBranchId": 10000210,
+            "numberOfEmployees": 22,
+            "financialReportsURL": "aaa",
+            "makerDate": 1525434441000,
+            "makerId": "1"
+          },
+          "emails": [
+            {
+              "emailsPK": {
+                "partyId": 100000001,
+                "emailType": "O"
+              },
+              "bankId": 1001,
+              "emailId": "wsxcde@gmail.com",
+              "active": "Y",
+              "makerDate": 1525434441000,
+              "makerId": "1"
+            },
+            {
+              "emailsPK": {
+                "partyId": 100000001,
+                "emailType": "P"
+              },
+              "bankId": 1001,
+              "emailId": "mddsabc123@gmail.com",
+              "active": "N",
+              "makerDate": 1522228627000,
+              "makerId": "2"
+            }
+          ],
+          "phoneNumbers": [
+            {
+              "phoneNumberId": 110000006,
+              "partyId": 100000001,
+              "bankId": 1001,
+              "type": "R",
+              "phoneNumber": "05678567567",
+              "active": "y",
+              "makerDate": 1533047936000,
+              "makerId": "1"
+            }
+          ]
+        },
+        "documentName": "XXXX",
+        "documentTypeId": 1,
+        "documentOriginalFileName": "XXXX",
+        "documentLocation": "XXXX",
+        "reference": "XXXX",
+        "bankId": 1001,
+        "makerDate": 1518168828000,
+        "makerId": "1"
+      },
+      "proofOfAddressAddressLine1": "as",
+      "proofOfAddressAddressLine2": "as",
+      "proofOfAddressPostCode": "123",
+      "correspondenceSameAsProofOfAddress": "string",
+      "customerRiskScoreStatus": "ToGenerate",
+      "makerDate": 1523006091000,
+      "makerId": "1"
+    },
+    {
+      "kycNumber": 1014,
+      "kycType": "NEW",
+      "kycProcessStatus": "a",
+      "banks": {
+        "bankId": 1001,
+        "bankRegNumber": "MIDLGB21",
+        "bankIdentificationCode": "1001",
+        "bankName": "HSBC",
+        "country": "UK",
+        "registeredAddress": "3, The Square, Beeston, NG9 2AN, UK",
+        "makerDate": 1528966679000,
+        "makerId": "1"
+      },
+      "sex": "m",
+      "forenames": "ssss",
+      "lastname": "abba",
+      "title": "qw",
+      "dob": 1523006091000,
+      "maritalStatus": "s",
+      "nationality": "qa",
+      "residenceCountry": "string",
+      "birthPlace": "Colombo",
+      "countryCodeOfBirth": "SL",
+      "motherMaidenName": "ann",
+      "educationLevel": "PHD",
+      "headOfHouseHoldInd": "aaa",
+      "employmentStatus": "A",
+      "proofOfIdentityType": "string",
+      "proofOfIdentityIssuer": "qa",
+      "proofOfIdentityNumber": "string",
+      "proofOfIdentityExpiryDate": 1523006091000,
+      "proofOfIdentityVerified": "verified",
+      "proofOfIdentityDocument": {
+        "documentId": 2,
+        "parties": {
+          "partyId": 100000001,
+          "partyType": "P",
+          "banks": {
+            "bankId": 1001,
+            "bankRegNumber": "MIDLGB21",
+            "bankIdentificationCode": "1001",
+            "bankName": "HSBC",
+            "country": "UK",
+            "registeredAddress": "3, The Square, Beeston, NG9 2AN, UK",
+            "makerDate": 1528966679000,
+            "makerId": "1"
+          },
+          "description": "Jemma Hamilton",
+          "makerDate": 1517587025000,
+          "makerId": "1",
+          "person": {
+            "partyId": 100000001,
+            "bankId": 1001,
+            "personTypeId": 100000001,
+            "ssn": "JJ920610C",
+            "sex": "f",
+            "foreName": "Julia",
+            "middleName": "Natasha",
+            "lastName": "Cooper",
+            "deceased": "N",
+            "active": "Y",
+            "birthPlace": "uk",
+            "motherMaidenName": "Bethany",
+            "spouseName": "",
+            "militaryRank": "",
+            "dependents": "0",
+            "educationLevel": "post_graduate",
+            "headOfHouseHoldInd": "False",
+            "currentEmploymentStartDate": 1522993823000,
+            "jobTitle": "",
+            "job": "",
+            "originatingBranchId": 10000401,
+            "preferrredBranchId": 10000401,
+            "responsibleBranchId": 10000401,
+            "makerDate": 1522993823000,
+            "makerId": "1"
+          },
+          "organization": {
+            "partyId": 100000001,
+            "bankId": 1001,
+            "organizationName": "rdr",
+            "organizationTypeId": 200000001,
+            "registrationNumber": "77-6780962",
+            "active": "Y",
+            "creditReviewTimeFrame": 1525434441000,
+            "organizationBranchId": 33,
+            "preferredBranchId": 10000210,
+            "responsibleBranchId": 10000210,
+            "numberOfEmployees": 22,
+            "financialReportsURL": "aaa",
+            "makerDate": 1525434441000,
+            "makerId": "1"
+          },
+          "emails": [
+            {
+              "emailsPK": {
+                "partyId": 100000001,
+                "emailType": "O"
+              },
+              "bankId": 1001,
+              "emailId": "wsxcde@gmail.com",
+              "active": "Y",
+              "makerDate": 1525434441000,
+              "makerId": "1"
+            },
+            {
+              "emailsPK": {
+                "partyId": 100000001,
+                "emailType": "P"
+              },
+              "bankId": 1001,
+              "emailId": "mddsabc123@gmail.com",
+              "active": "N",
+              "makerDate": 1522228627000,
+              "makerId": "2"
+            }
+          ],
+          "phoneNumbers": [
+            {
+              "phoneNumberId": 110000006,
+              "partyId": 100000001,
+              "bankId": 1001,
+              "type": "R",
+              "phoneNumber": "05678567567",
+              "active": "y",
+              "makerDate": 1533047936000,
+              "makerId": "1"
+            }
+          ]
+        },
+        "documentName": "xxx",
+        "documentTypeId": 1,
+        "documentOriginalFileName": "xxx",
+        "documentLocation": "xxx",
+        "reference": "xxx",
+        "bankId": 1001,
+        "makerDate": 1532237701000,
+        "makerId": "1"
+      },
+      "proofOfAddressType": "p",
+      "proofOfAddressVerified": "verified",
+      "proofOfAddressDocument": {
+        "documentId": 3,
+        "parties": {
+          "partyId": 100000001,
+          "partyType": "P",
+          "banks": {
+            "bankId": 1001,
+            "bankRegNumber": "MIDLGB21",
+            "bankIdentificationCode": "1001",
+            "bankName": "HSBC",
+            "country": "UK",
+            "registeredAddress": "3, The Square, Beeston, NG9 2AN, UK",
+            "makerDate": 1528966679000,
+            "makerId": "1"
+          },
+          "description": "Jemma Hamilton",
+          "makerDate": 1517587025000,
+          "makerId": "1",
+          "person": {
+            "partyId": 100000001,
+            "bankId": 1001,
+            "personTypeId": 100000001,
+            "ssn": "JJ920610C",
+            "sex": "f",
+            "foreName": "Julia",
+            "middleName": "Natasha",
+            "lastName": "Cooper",
+            "deceased": "N",
+            "active": "Y",
+            "birthPlace": "uk",
+            "motherMaidenName": "Bethany",
+            "spouseName": "",
+            "militaryRank": "",
+            "dependents": "0",
+            "educationLevel": "post_graduate",
+            "headOfHouseHoldInd": "False",
+            "currentEmploymentStartDate": 1522993823000,
+            "jobTitle": "",
+            "job": "",
+            "originatingBranchId": 10000401,
+            "preferrredBranchId": 10000401,
+            "responsibleBranchId": 10000401,
+            "makerDate": 1522993823000,
+            "makerId": "1"
+          },
+          "organization": {
+            "partyId": 100000001,
+            "bankId": 1001,
+            "organizationName": "rdr",
+            "organizationTypeId": 200000001,
+            "registrationNumber": "77-6780962",
+            "active": "Y",
+            "creditReviewTimeFrame": 1525434441000,
+            "organizationBranchId": 33,
+            "preferredBranchId": 10000210,
+            "responsibleBranchId": 10000210,
+            "numberOfEmployees": 22,
+            "financialReportsURL": "aaa",
+            "makerDate": 1525434441000,
+            "makerId": "1"
+          },
+          "emails": [
+            {
+              "emailsPK": {
+                "partyId": 100000001,
+                "emailType": "O"
+              },
+              "bankId": 1001,
+              "emailId": "wsxcde@gmail.com",
+              "active": "Y",
+              "makerDate": 1525434441000,
+              "makerId": "1"
+            },
+            {
+              "emailsPK": {
+                "partyId": 100000001,
+                "emailType": "P"
+              },
+              "bankId": 1001,
+              "emailId": "mddsabc123@gmail.com",
+              "active": "N",
+              "makerDate": 1522228627000,
+              "makerId": "2"
+            }
+          ],
+          "phoneNumbers": [
+            {
+              "phoneNumberId": 110000006,
+              "partyId": 100000001,
+              "bankId": 1001,
+              "type": "R",
+              "phoneNumber": "05678567567",
+              "active": "y",
+              "makerDate": 1533047936000,
+              "makerId": "1"
+            }
+          ]
+        },
+        "documentName": "XXXX",
+        "documentTypeId": 1,
+        "documentOriginalFileName": "XXXX",
+        "documentLocation": "XXXX",
+        "reference": "XXXX",
+        "bankId": 1001,
+        "makerDate": 1518168828000,
+        "makerId": "1"
+      },
+      "proofOfAddressAddressLine1": "as",
+      "proofOfAddressAddressLine2": "as",
+      "proofOfAddressPostCode": "123",
+      "correspondenceSameAsProofOfAddress": "string",
+      "customerRiskScoreStatus": "ToGenerate",
+      "makerDate": 1523006091000,
+      "makerId": "1"
+    },
+    {
+      "kycNumber": 1015,
+      "kycType": "NEW",
+      "kycProcessStatus": "test",
+      "banks": {
+        "bankId": 1001,
+        "bankRegNumber": "MIDLGB21",
+        "bankIdentificationCode": "1001",
+        "bankName": "HSBC",
+        "country": "UK",
+        "registeredAddress": "3, The Square, Beeston, NG9 2AN, UK",
+        "makerDate": 1528966679000,
+        "makerId": "1"
+      },
+      "sex": "m",
+      "forenames": "test",
+      "lastname": "test",
+      "title": "mr",
+      "dob": 1524396142000,
+      "maritalStatus": "s",
+      "nationality": "test",
+      "residenceCountry": "string",
+      "birthPlace": "test",
+      "countryCodeOfBirth": "test",
+      "motherMaidenName": "test",
+      "educationLevel": "test",
+      "headOfHouseHoldInd": "test",
+      "employmentStatus": "A",
+      "proofOfIdentityType": "string",
+      "proofOfIdentityIssuer": "string",
+      "proofOfIdentityNumber": "string",
+      "proofOfIdentityExpiryDate": 1524396142000,
+      "proofOfIdentityVerified": "verified",
+      "proofOfIdentityDocument": {
+        "documentId": 2,
+        "parties": {
+          "partyId": 100000001,
+          "partyType": "P",
+          "banks": {
+            "bankId": 1001,
+            "bankRegNumber": "MIDLGB21",
+            "bankIdentificationCode": "1001",
+            "bankName": "HSBC",
+            "country": "UK",
+            "registeredAddress": "3, The Square, Beeston, NG9 2AN, UK",
+            "makerDate": 1528966679000,
+            "makerId": "1"
+          },
+          "description": "Jemma Hamilton",
+          "makerDate": 1517587025000,
+          "makerId": "1",
+          "person": {
+            "partyId": 100000001,
+            "bankId": 1001,
+            "personTypeId": 100000001,
+            "ssn": "JJ920610C",
+            "sex": "f",
+            "foreName": "Julia",
+            "middleName": "Natasha",
+            "lastName": "Cooper",
+            "deceased": "N",
+            "active": "Y",
+            "birthPlace": "uk",
+            "motherMaidenName": "Bethany",
+            "spouseName": "",
+            "militaryRank": "",
+            "dependents": "0",
+            "educationLevel": "post_graduate",
+            "headOfHouseHoldInd": "False",
+            "currentEmploymentStartDate": 1522993823000,
+            "jobTitle": "",
+            "job": "",
+            "originatingBranchId": 10000401,
+            "preferrredBranchId": 10000401,
+            "responsibleBranchId": 10000401,
+            "makerDate": 1522993823000,
+            "makerId": "1"
+          },
+          "organization": {
+            "partyId": 100000001,
+            "bankId": 1001,
+            "organizationName": "rdr",
+            "organizationTypeId": 200000001,
+            "registrationNumber": "77-6780962",
+            "active": "Y",
+            "creditReviewTimeFrame": 1525434441000,
+            "organizationBranchId": 33,
+            "preferredBranchId": 10000210,
+            "responsibleBranchId": 10000210,
+            "numberOfEmployees": 22,
+            "financialReportsURL": "aaa",
+            "makerDate": 1525434441000,
+            "makerId": "1"
+          },
+          "emails": [
+            {
+              "emailsPK": {
+                "partyId": 100000001,
+                "emailType": "O"
+              },
+              "bankId": 1001,
+              "emailId": "wsxcde@gmail.com",
+              "active": "Y",
+              "makerDate": 1525434441000,
+              "makerId": "1"
+            },
+            {
+              "emailsPK": {
+                "partyId": 100000001,
+                "emailType": "P"
+              },
+              "bankId": 1001,
+              "emailId": "mddsabc123@gmail.com",
+              "active": "N",
+              "makerDate": 1522228627000,
+              "makerId": "2"
+            }
+          ],
+          "phoneNumbers": [
+            {
+              "phoneNumberId": 110000006,
+              "partyId": 100000001,
+              "bankId": 1001,
+              "type": "R",
+              "phoneNumber": "05678567567",
+              "active": "y",
+              "makerDate": 1533047936000,
+              "makerId": "1"
+            }
+          ]
+        },
+        "documentName": "xxx",
+        "documentTypeId": 1,
+        "documentOriginalFileName": "xxx",
+        "documentLocation": "xxx",
+        "reference": "xxx",
+        "bankId": 1001,
+        "makerDate": 1532237701000,
+        "makerId": "1"
+      },
+      "proofOfAddressType": "string",
+      "proofOfAddressVerified": "verified",
+      "proofOfAddressDocument": {
+        "documentId": 3,
+        "parties": {
+          "partyId": 100000001,
+          "partyType": "P",
+          "banks": {
+            "bankId": 1001,
+            "bankRegNumber": "MIDLGB21",
+            "bankIdentificationCode": "1001",
+            "bankName": "HSBC",
+            "country": "UK",
+            "registeredAddress": "3, The Square, Beeston, NG9 2AN, UK",
+            "makerDate": 1528966679000,
+            "makerId": "1"
+          },
+          "description": "Jemma Hamilton",
+          "makerDate": 1517587025000,
+          "makerId": "1",
+          "person": {
+            "partyId": 100000001,
+            "bankId": 1001,
+            "personTypeId": 100000001,
+            "ssn": "JJ920610C",
+            "sex": "f",
+            "foreName": "Julia",
+            "middleName": "Natasha",
+            "lastName": "Cooper",
+            "deceased": "N",
+            "active": "Y",
+            "birthPlace": "uk",
+            "motherMaidenName": "Bethany",
+            "spouseName": "",
+            "militaryRank": "",
+            "dependents": "0",
+            "educationLevel": "post_graduate",
+            "headOfHouseHoldInd": "False",
+            "currentEmploymentStartDate": 1522993823000,
+            "jobTitle": "",
+            "job": "",
+            "originatingBranchId": 10000401,
+            "preferrredBranchId": 10000401,
+            "responsibleBranchId": 10000401,
+            "makerDate": 1522993823000,
+            "makerId": "1"
+          },
+          "organization": {
+            "partyId": 100000001,
+            "bankId": 1001,
+            "organizationName": "rdr",
+            "organizationTypeId": 200000001,
+            "registrationNumber": "77-6780962",
+            "active": "Y",
+            "creditReviewTimeFrame": 1525434441000,
+            "organizationBranchId": 33,
+            "preferredBranchId": 10000210,
+            "responsibleBranchId": 10000210,
+            "numberOfEmployees": 22,
+            "financialReportsURL": "aaa",
+            "makerDate": 1525434441000,
+            "makerId": "1"
+          },
+          "emails": [
+            {
+              "emailsPK": {
+                "partyId": 100000001,
+                "emailType": "O"
+              },
+              "bankId": 1001,
+              "emailId": "wsxcde@gmail.com",
+              "active": "Y",
+              "makerDate": 1525434441000,
+              "makerId": "1"
+            },
+            {
+              "emailsPK": {
+                "partyId": 100000001,
+                "emailType": "P"
+              },
+              "bankId": 1001,
+              "emailId": "mddsabc123@gmail.com",
+              "active": "N",
+              "makerDate": 1522228627000,
+              "makerId": "2"
+            }
+          ],
+          "phoneNumbers": [
+            {
+              "phoneNumberId": 110000006,
+              "partyId": 100000001,
+              "bankId": 1001,
+              "type": "R",
+              "phoneNumber": "05678567567",
+              "active": "y",
+              "makerDate": 1533047936000,
+              "makerId": "1"
+            }
+          ]
+        },
+        "documentName": "XXXX",
+        "documentTypeId": 1,
+        "documentOriginalFileName": "XXXX",
+        "documentLocation": "XXXX",
+        "reference": "XXXX",
+        "bankId": 1001,
+        "makerDate": 1518168828000,
+        "makerId": "1"
+      },
+      "proofOfAddressAddressLine1": "string",
+      "proofOfAddressAddressLine2": "string",
+      "proofOfAddressPostCode": "string",
+      "correspondenceSameAsProofOfAddress": "test",
+      "customerRiskScoreStatus": "ToGenerate",
+      "makerDate": 1524396142000,
+      "makerId": "1"
+    },
+    {
+      "kycNumber": 1016,
+      "kycType": "NEW",
+      "kycProcessStatus": "test",
+      "banks": {
+        "bankId": 1001,
+        "bankRegNumber": "MIDLGB21",
+        "bankIdentificationCode": "1001",
+        "bankName": "HSBC",
+        "country": "UK",
+        "registeredAddress": "3, The Square, Beeston, NG9 2AN, UK",
+        "makerDate": 1528966679000,
+        "makerId": "1"
+      },
+      "sex": "m",
+      "forenames": "test",
+      "lastname": "test",
+      "title": "mr",
+      "dob": 1524396142000,
+      "maritalStatus": "s",
+      "nationality": "test",
+      "residenceCountry": "string",
+      "birthPlace": "test",
+      "countryCodeOfBirth": "test",
+      "motherMaidenName": "test",
+      "educationLevel": "test",
+      "headOfHouseHoldInd": "test",
+      "employmentStatus": "A",
+      "proofOfIdentityType": "string",
+      "proofOfIdentityIssuer": "string",
+      "proofOfIdentityNumber": "string",
+      "proofOfIdentityExpiryDate": 1524396142000,
+      "proofOfIdentityVerified": "verified",
+      "proofOfIdentityDocument": {
+        "documentId": 2,
+        "parties": {
+          "partyId": 100000001,
+          "partyType": "P",
+          "banks": {
+            "bankId": 1001,
+            "bankRegNumber": "MIDLGB21",
+            "bankIdentificationCode": "1001",
+            "bankName": "HSBC",
+            "country": "UK",
+            "registeredAddress": "3, The Square, Beeston, NG9 2AN, UK",
+            "makerDate": 1528966679000,
+            "makerId": "1"
+          },
+          "description": "Jemma Hamilton",
+          "makerDate": 1517587025000,
+          "makerId": "1",
+          "person": {
+            "partyId": 100000001,
+            "bankId": 1001,
+            "personTypeId": 100000001,
+            "ssn": "JJ920610C",
+            "sex": "f",
+            "foreName": "Julia",
+            "middleName": "Natasha",
+            "lastName": "Cooper",
+            "deceased": "N",
+            "active": "Y",
+            "birthPlace": "uk",
+            "motherMaidenName": "Bethany",
+            "spouseName": "",
+            "militaryRank": "",
+            "dependents": "0",
+            "educationLevel": "post_graduate",
+            "headOfHouseHoldInd": "False",
+            "currentEmploymentStartDate": 1522993823000,
+            "jobTitle": "",
+            "job": "",
+            "originatingBranchId": 10000401,
+            "preferrredBranchId": 10000401,
+            "responsibleBranchId": 10000401,
+            "makerDate": 1522993823000,
+            "makerId": "1"
+          },
+          "organization": {
+            "partyId": 100000001,
+            "bankId": 1001,
+            "organizationName": "rdr",
+            "organizationTypeId": 200000001,
+            "registrationNumber": "77-6780962",
+            "active": "Y",
+            "creditReviewTimeFrame": 1525434441000,
+            "organizationBranchId": 33,
+            "preferredBranchId": 10000210,
+            "responsibleBranchId": 10000210,
+            "numberOfEmployees": 22,
+            "financialReportsURL": "aaa",
+            "makerDate": 1525434441000,
+            "makerId": "1"
+          },
+          "emails": [
+            {
+              "emailsPK": {
+                "partyId": 100000001,
+                "emailType": "O"
+              },
+              "bankId": 1001,
+              "emailId": "wsxcde@gmail.com",
+              "active": "Y",
+              "makerDate": 1525434441000,
+              "makerId": "1"
+            },
+            {
+              "emailsPK": {
+                "partyId": 100000001,
+                "emailType": "P"
+              },
+              "bankId": 1001,
+              "emailId": "mddsabc123@gmail.com",
+              "active": "N",
+              "makerDate": 1522228627000,
+              "makerId": "2"
+            }
+          ],
+          "phoneNumbers": [
+            {
+              "phoneNumberId": 110000006,
+              "partyId": 100000001,
+              "bankId": 1001,
+              "type": "R",
+              "phoneNumber": "05678567567",
+              "active": "y",
+              "makerDate": 1533047936000,
+              "makerId": "1"
+            }
+          ]
+        },
+        "documentName": "xxx",
+        "documentTypeId": 1,
+        "documentOriginalFileName": "xxx",
+        "documentLocation": "xxx",
+        "reference": "xxx",
+        "bankId": 1001,
+        "makerDate": 1532237701000,
+        "makerId": "1"
+      },
+      "proofOfAddressType": "string",
+      "proofOfAddressVerified": "verified",
+      "proofOfAddressDocument": {
+        "documentId": 3,
+        "parties": {
+          "partyId": 100000001,
+          "partyType": "P",
+          "banks": {
+            "bankId": 1001,
+            "bankRegNumber": "MIDLGB21",
+            "bankIdentificationCode": "1001",
+            "bankName": "HSBC",
+            "country": "UK",
+            "registeredAddress": "3, The Square, Beeston, NG9 2AN, UK",
+            "makerDate": 1528966679000,
+            "makerId": "1"
+          },
+          "description": "Jemma Hamilton",
+          "makerDate": 1517587025000,
+          "makerId": "1",
+          "person": {
+            "partyId": 100000001,
+            "bankId": 1001,
+            "personTypeId": 100000001,
+            "ssn": "JJ920610C",
+            "sex": "f",
+            "foreName": "Julia",
+            "middleName": "Natasha",
+            "lastName": "Cooper",
+            "deceased": "N",
+            "active": "Y",
+            "birthPlace": "uk",
+            "motherMaidenName": "Bethany",
+            "spouseName": "",
+            "militaryRank": "",
+            "dependents": "0",
+            "educationLevel": "post_graduate",
+            "headOfHouseHoldInd": "False",
+            "currentEmploymentStartDate": 1522993823000,
+            "jobTitle": "",
+            "job": "",
+            "originatingBranchId": 10000401,
+            "preferrredBranchId": 10000401,
+            "responsibleBranchId": 10000401,
+            "makerDate": 1522993823000,
+            "makerId": "1"
+          },
+          "organization": {
+            "partyId": 100000001,
+            "bankId": 1001,
+            "organizationName": "rdr",
+            "organizationTypeId": 200000001,
+            "registrationNumber": "77-6780962",
+            "active": "Y",
+            "creditReviewTimeFrame": 1525434441000,
+            "organizationBranchId": 33,
+            "preferredBranchId": 10000210,
+            "responsibleBranchId": 10000210,
+            "numberOfEmployees": 22,
+            "financialReportsURL": "aaa",
+            "makerDate": 1525434441000,
+            "makerId": "1"
+          },
+          "emails": [
+            {
+              "emailsPK": {
+                "partyId": 100000001,
+                "emailType": "O"
+              },
+              "bankId": 1001,
+              "emailId": "wsxcde@gmail.com",
+              "active": "Y",
+              "makerDate": 1525434441000,
+              "makerId": "1"
+            },
+            {
+              "emailsPK": {
+                "partyId": 100000001,
+                "emailType": "P"
+              },
+              "bankId": 1001,
+              "emailId": "mddsabc123@gmail.com",
+              "active": "N",
+              "makerDate": 1522228627000,
+              "makerId": "2"
+            }
+          ],
+          "phoneNumbers": [
+            {
+              "phoneNumberId": 110000006,
+              "partyId": 100000001,
+              "bankId": 1001,
+              "type": "R",
+              "phoneNumber": "05678567567",
+              "active": "y",
+              "makerDate": 1533047936000,
+              "makerId": "1"
+            }
+          ]
+        },
+        "documentName": "XXXX",
+        "documentTypeId": 1,
+        "documentOriginalFileName": "XXXX",
+        "documentLocation": "XXXX",
+        "reference": "XXXX",
+        "bankId": 1001,
+        "makerDate": 1518168828000,
+        "makerId": "1"
+      },
+      "proofOfAddressAddressLine1": "string",
+      "proofOfAddressAddressLine2": "string",
+      "proofOfAddressPostCode": "string",
+      "correspondenceSameAsProofOfAddress": "test",
+      "customerRiskScoreStatus": "ToGenerate",
+      "makerDate": 1524396142000,
+      "makerId": "1"
+    },
+    {
+      "kycNumber": 1017,
+      "kycType": "NEW",
+      "kycProcessStatus": "test",
+      "banks": {
+        "bankId": 1001,
+        "bankRegNumber": "MIDLGB21",
+        "bankIdentificationCode": "1001",
+        "bankName": "HSBC",
+        "country": "UK",
+        "registeredAddress": "3, The Square, Beeston, NG9 2AN, UK",
+        "makerDate": 1528966679000,
+        "makerId": "1"
+      },
+      "sex": "m",
+      "forenames": "test",
+      "lastname": "test",
+      "title": "mr",
+      "dob": 1524396142000,
+      "maritalStatus": "s",
+      "nationality": "test",
+      "residenceCountry": "string",
+      "birthPlace": "test",
+      "countryCodeOfBirth": "test",
+      "motherMaidenName": "test",
+      "educationLevel": "test",
+      "headOfHouseHoldInd": "test",
+      "employmentStatus": "A",
+      "proofOfIdentityType": "string",
+      "proofOfIdentityIssuer": "string",
+      "proofOfIdentityNumber": "string",
+      "proofOfIdentityExpiryDate": 1524396142000,
+      "proofOfIdentityVerified": "verified",
+      "proofOfIdentityDocument": {
+        "documentId": 2,
+        "parties": {
+          "partyId": 100000001,
+          "partyType": "P",
+          "banks": {
+            "bankId": 1001,
+            "bankRegNumber": "MIDLGB21",
+            "bankIdentificationCode": "1001",
+            "bankName": "HSBC",
+            "country": "UK",
+            "registeredAddress": "3, The Square, Beeston, NG9 2AN, UK",
+            "makerDate": 1528966679000,
+            "makerId": "1"
+          },
+          "description": "Jemma Hamilton",
+          "makerDate": 1517587025000,
+          "makerId": "1",
+          "person": {
+            "partyId": 100000001,
+            "bankId": 1001,
+            "personTypeId": 100000001,
+            "ssn": "JJ920610C",
+            "sex": "f",
+            "foreName": "Julia",
+            "middleName": "Natasha",
+            "lastName": "Cooper",
+            "deceased": "N",
+            "active": "Y",
+            "birthPlace": "uk",
+            "motherMaidenName": "Bethany",
+            "spouseName": "",
+            "militaryRank": "",
+            "dependents": "0",
+            "educationLevel": "post_graduate",
+            "headOfHouseHoldInd": "False",
+            "currentEmploymentStartDate": 1522993823000,
+            "jobTitle": "",
+            "job": "",
+            "originatingBranchId": 10000401,
+            "preferrredBranchId": 10000401,
+            "responsibleBranchId": 10000401,
+            "makerDate": 1522993823000,
+            "makerId": "1"
+          },
+          "organization": {
+            "partyId": 100000001,
+            "bankId": 1001,
+            "organizationName": "rdr",
+            "organizationTypeId": 200000001,
+            "registrationNumber": "77-6780962",
+            "active": "Y",
+            "creditReviewTimeFrame": 1525434441000,
+            "organizationBranchId": 33,
+            "preferredBranchId": 10000210,
+            "responsibleBranchId": 10000210,
+            "numberOfEmployees": 22,
+            "financialReportsURL": "aaa",
+            "makerDate": 1525434441000,
+            "makerId": "1"
+          },
+          "emails": [
+            {
+              "emailsPK": {
+                "partyId": 100000001,
+                "emailType": "O"
+              },
+              "bankId": 1001,
+              "emailId": "wsxcde@gmail.com",
+              "active": "Y",
+              "makerDate": 1525434441000,
+              "makerId": "1"
+            },
+            {
+              "emailsPK": {
+                "partyId": 100000001,
+                "emailType": "P"
+              },
+              "bankId": 1001,
+              "emailId": "mddsabc123@gmail.com",
+              "active": "N",
+              "makerDate": 1522228627000,
+              "makerId": "2"
+            }
+          ],
+          "phoneNumbers": [
+            {
+              "phoneNumberId": 110000006,
+              "partyId": 100000001,
+              "bankId": 1001,
+              "type": "R",
+              "phoneNumber": "05678567567",
+              "active": "y",
+              "makerDate": 1533047936000,
+              "makerId": "1"
+            }
+          ]
+        },
+        "documentName": "xxx",
+        "documentTypeId": 1,
+        "documentOriginalFileName": "xxx",
+        "documentLocation": "xxx",
+        "reference": "xxx",
+        "bankId": 1001,
+        "makerDate": 1532237701000,
+        "makerId": "1"
+      },
+      "proofOfAddressType": "string",
+      "proofOfAddressVerified": "verified",
+      "proofOfAddressDocument": {
+        "documentId": 3,
+        "parties": {
+          "partyId": 100000001,
+          "partyType": "P",
+          "banks": {
+            "bankId": 1001,
+            "bankRegNumber": "MIDLGB21",
+            "bankIdentificationCode": "1001",
+            "bankName": "HSBC",
+            "country": "UK",
+            "registeredAddress": "3, The Square, Beeston, NG9 2AN, UK",
+            "makerDate": 1528966679000,
+            "makerId": "1"
+          },
+          "description": "Jemma Hamilton",
+          "makerDate": 1517587025000,
+          "makerId": "1",
+          "person": {
+            "partyId": 100000001,
+            "bankId": 1001,
+            "personTypeId": 100000001,
+            "ssn": "JJ920610C",
+            "sex": "f",
+            "foreName": "Julia",
+            "middleName": "Natasha",
+            "lastName": "Cooper",
+            "deceased": "N",
+            "active": "Y",
+            "birthPlace": "uk",
+            "motherMaidenName": "Bethany",
+            "spouseName": "",
+            "militaryRank": "",
+            "dependents": "0",
+            "educationLevel": "post_graduate",
+            "headOfHouseHoldInd": "False",
+            "currentEmploymentStartDate": 1522993823000,
+            "jobTitle": "",
+            "job": "",
+            "originatingBranchId": 10000401,
+            "preferrredBranchId": 10000401,
+            "responsibleBranchId": 10000401,
+            "makerDate": 1522993823000,
+            "makerId": "1"
+          },
+          "organization": {
+            "partyId": 100000001,
+            "bankId": 1001,
+            "organizationName": "rdr",
+            "organizationTypeId": 200000001,
+            "registrationNumber": "77-6780962",
+            "active": "Y",
+            "creditReviewTimeFrame": 1525434441000,
+            "organizationBranchId": 33,
+            "preferredBranchId": 10000210,
+            "responsibleBranchId": 10000210,
+            "numberOfEmployees": 22,
+            "financialReportsURL": "aaa",
+            "makerDate": 1525434441000,
+            "makerId": "1"
+          },
+          "emails": [
+            {
+              "emailsPK": {
+                "partyId": 100000001,
+                "emailType": "O"
+              },
+              "bankId": 1001,
+              "emailId": "wsxcde@gmail.com",
+              "active": "Y",
+              "makerDate": 1525434441000,
+              "makerId": "1"
+            },
+            {
+              "emailsPK": {
+                "partyId": 100000001,
+                "emailType": "P"
+              },
+              "bankId": 1001,
+              "emailId": "mddsabc123@gmail.com",
+              "active": "N",
+              "makerDate": 1522228627000,
+              "makerId": "2"
+            }
+          ],
+          "phoneNumbers": [
+            {
+              "phoneNumberId": 110000006,
+              "partyId": 100000001,
+              "bankId": 1001,
+              "type": "R",
+              "phoneNumber": "05678567567",
+              "active": "y",
+              "makerDate": 1533047936000,
+              "makerId": "1"
+            }
+          ]
+        },
+        "documentName": "XXXX",
+        "documentTypeId": 1,
+        "documentOriginalFileName": "XXXX",
+        "documentLocation": "XXXX",
+        "reference": "XXXX",
+        "bankId": 1001,
+        "makerDate": 1518168828000,
+        "makerId": "1"
+      },
+      "proofOfAddressAddressLine1": "string",
+      "proofOfAddressAddressLine2": "string",
+      "proofOfAddressPostCode": "string",
+      "correspondenceSameAsProofOfAddress": "test",
+      "customerRiskScoreStatus": "ToGenerate",
+      "makerDate": 1524396142000,
+      "makerId": "1"
+    },
+    {
+      "kycNumber": 1018,
+      "kycType": "NEW",
+      "kycProcessStatus": "test",
+      "banks": {
+        "bankId": 1001,
+        "bankRegNumber": "MIDLGB21",
+        "bankIdentificationCode": "1001",
+        "bankName": "HSBC",
+        "country": "UK",
+        "registeredAddress": "3, The Square, Beeston, NG9 2AN, UK",
+        "makerDate": 1528966679000,
+        "makerId": "1"
+      },
+      "sex": "m",
+      "forenames": "test",
+      "lastname": "test",
+      "title": "mr",
+      "dob": 1524396142000,
+      "maritalStatus": "s",
+      "nationality": "test",
+      "residenceCountry": "string",
+      "birthPlace": "test",
+      "countryCodeOfBirth": "test",
+      "motherMaidenName": "test",
+      "educationLevel": "test",
+      "headOfHouseHoldInd": "test",
+      "employmentStatus": "A",
+      "proofOfIdentityType": "string",
+      "proofOfIdentityIssuer": "string",
+      "proofOfIdentityNumber": "string",
+      "proofOfIdentityExpiryDate": 1524396142000,
+      "proofOfIdentityVerified": "verified",
+      "proofOfIdentityDocument": {
+        "documentId": 2,
+        "parties": {
+          "partyId": 100000001,
+          "partyType": "P",
+          "banks": {
+            "bankId": 1001,
+            "bankRegNumber": "MIDLGB21",
+            "bankIdentificationCode": "1001",
+            "bankName": "HSBC",
+            "country": "UK",
+            "registeredAddress": "3, The Square, Beeston, NG9 2AN, UK",
+            "makerDate": 1528966679000,
+            "makerId": "1"
+          },
+          "description": "Jemma Hamilton",
+          "makerDate": 1517587025000,
+          "makerId": "1",
+          "person": {
+            "partyId": 100000001,
+            "bankId": 1001,
+            "personTypeId": 100000001,
+            "ssn": "JJ920610C",
+            "sex": "f",
+            "foreName": "Julia",
+            "middleName": "Natasha",
+            "lastName": "Cooper",
+            "deceased": "N",
+            "active": "Y",
+            "birthPlace": "uk",
+            "motherMaidenName": "Bethany",
+            "spouseName": "",
+            "militaryRank": "",
+            "dependents": "0",
+            "educationLevel": "post_graduate",
+            "headOfHouseHoldInd": "False",
+            "currentEmploymentStartDate": 1522993823000,
+            "jobTitle": "",
+            "job": "",
+            "originatingBranchId": 10000401,
+            "preferrredBranchId": 10000401,
+            "responsibleBranchId": 10000401,
+            "makerDate": 1522993823000,
+            "makerId": "1"
+          },
+          "organization": {
+            "partyId": 100000001,
+            "bankId": 1001,
+            "organizationName": "rdr",
+            "organizationTypeId": 200000001,
+            "registrationNumber": "77-6780962",
+            "active": "Y",
+            "creditReviewTimeFrame": 1525434441000,
+            "organizationBranchId": 33,
+            "preferredBranchId": 10000210,
+            "responsibleBranchId": 10000210,
+            "numberOfEmployees": 22,
+            "financialReportsURL": "aaa",
+            "makerDate": 1525434441000,
+            "makerId": "1"
+          },
+          "emails": [
+            {
+              "emailsPK": {
+                "partyId": 100000001,
+                "emailType": "O"
+              },
+              "bankId": 1001,
+              "emailId": "wsxcde@gmail.com",
+              "active": "Y",
+              "makerDate": 1525434441000,
+              "makerId": "1"
+            },
+            {
+              "emailsPK": {
+                "partyId": 100000001,
+                "emailType": "P"
+              },
+              "bankId": 1001,
+              "emailId": "mddsabc123@gmail.com",
+              "active": "N",
+              "makerDate": 1522228627000,
+              "makerId": "2"
+            }
+          ],
+          "phoneNumbers": [
+            {
+              "phoneNumberId": 110000006,
+              "partyId": 100000001,
+              "bankId": 1001,
+              "type": "R",
+              "phoneNumber": "05678567567",
+              "active": "y",
+              "makerDate": 1533047936000,
+              "makerId": "1"
+            }
+          ]
+        },
+        "documentName": "xxx",
+        "documentTypeId": 1,
+        "documentOriginalFileName": "xxx",
+        "documentLocation": "xxx",
+        "reference": "xxx",
+        "bankId": 1001,
+        "makerDate": 1532237701000,
+        "makerId": "1"
+      },
+      "proofOfAddressType": "string",
+      "proofOfAddressVerified": "verified",
+      "proofOfAddressDocument": {
+        "documentId": 3,
+        "parties": {
+          "partyId": 100000001,
+          "partyType": "P",
+          "banks": {
+            "bankId": 1001,
+            "bankRegNumber": "MIDLGB21",
+            "bankIdentificationCode": "1001",
+            "bankName": "HSBC",
+            "country": "UK",
+            "registeredAddress": "3, The Square, Beeston, NG9 2AN, UK",
+            "makerDate": 1528966679000,
+            "makerId": "1"
+          },
+          "description": "Jemma Hamilton",
+          "makerDate": 1517587025000,
+          "makerId": "1",
+          "person": {
+            "partyId": 100000001,
+            "bankId": 1001,
+            "personTypeId": 100000001,
+            "ssn": "JJ920610C",
+            "sex": "f",
+            "foreName": "Julia",
+            "middleName": "Natasha",
+            "lastName": "Cooper",
+            "deceased": "N",
+            "active": "Y",
+            "birthPlace": "uk",
+            "motherMaidenName": "Bethany",
+            "spouseName": "",
+            "militaryRank": "",
+            "dependents": "0",
+            "educationLevel": "post_graduate",
+            "headOfHouseHoldInd": "False",
+            "currentEmploymentStartDate": 1522993823000,
+            "jobTitle": "",
+            "job": "",
+            "originatingBranchId": 10000401,
+            "preferrredBranchId": 10000401,
+            "responsibleBranchId": 10000401,
+            "makerDate": 1522993823000,
+            "makerId": "1"
+          },
+          "organization": {
+            "partyId": 100000001,
+            "bankId": 1001,
+            "organizationName": "rdr",
+            "organizationTypeId": 200000001,
+            "registrationNumber": "77-6780962",
+            "active": "Y",
+            "creditReviewTimeFrame": 1525434441000,
+            "organizationBranchId": 33,
+            "preferredBranchId": 10000210,
+            "responsibleBranchId": 10000210,
+            "numberOfEmployees": 22,
+            "financialReportsURL": "aaa",
+            "makerDate": 1525434441000,
+            "makerId": "1"
+          },
+          "emails": [
+            {
+              "emailsPK": {
+                "partyId": 100000001,
+                "emailType": "O"
+              },
+              "bankId": 1001,
+              "emailId": "wsxcde@gmail.com",
+              "active": "Y",
+              "makerDate": 1525434441000,
+              "makerId": "1"
+            },
+            {
+              "emailsPK": {
+                "partyId": 100000001,
+                "emailType": "P"
+              },
+              "bankId": 1001,
+              "emailId": "mddsabc123@gmail.com",
+              "active": "N",
+              "makerDate": 1522228627000,
+              "makerId": "2"
+            }
+          ],
+          "phoneNumbers": [
+            {
+              "phoneNumberId": 110000006,
+              "partyId": 100000001,
+              "bankId": 1001,
+              "type": "R",
+              "phoneNumber": "05678567567",
+              "active": "y",
+              "makerDate": 1533047936000,
+              "makerId": "1"
+            }
+          ]
+        },
+        "documentName": "XXXX",
+        "documentTypeId": 1,
+        "documentOriginalFileName": "XXXX",
+        "documentLocation": "XXXX",
+        "reference": "XXXX",
+        "bankId": 1001,
+        "makerDate": 1518168828000,
+        "makerId": "1"
+      },
+      "proofOfAddressAddressLine1": "string",
+      "proofOfAddressAddressLine2": "string",
+      "proofOfAddressPostCode": "string",
+      "correspondenceSameAsProofOfAddress": "test",
+      "customerRiskScoreStatus": "ToGenerate",
+      "makerDate": 1524396142000,
+      "makerId": "1"
+    },
+    {
+      "kycNumber": 1019,
+      "kycType": "NEW",
+      "kycProcessStatus": "test",
+      "banks": {
+        "bankId": 1001,
+        "bankRegNumber": "MIDLGB21",
+        "bankIdentificationCode": "1001",
+        "bankName": "HSBC",
+        "country": "UK",
+        "registeredAddress": "3, The Square, Beeston, NG9 2AN, UK",
+        "makerDate": 1528966679000,
+        "makerId": "1"
+      },
+      "sex": "m",
+      "forenames": "test",
+      "lastname": "test",
+      "title": "mr",
+      "dob": 1524396142000,
+      "maritalStatus": "s",
+      "nationality": "test",
+      "residenceCountry": "string",
+      "birthPlace": "test",
+      "countryCodeOfBirth": "test",
+      "motherMaidenName": "test",
+      "educationLevel": "test",
+      "headOfHouseHoldInd": "test",
+      "employmentStatus": "A",
+      "proofOfIdentityType": "string",
+      "proofOfIdentityIssuer": "string",
+      "proofOfIdentityNumber": "string",
+      "proofOfIdentityExpiryDate": 1524396142000,
+      "proofOfIdentityVerified": "verified",
+      "proofOfIdentityDocument": {
+        "documentId": 2,
+        "parties": {
+          "partyId": 100000001,
+          "partyType": "P",
+          "banks": {
+            "bankId": 1001,
+            "bankRegNumber": "MIDLGB21",
+            "bankIdentificationCode": "1001",
+            "bankName": "HSBC",
+            "country": "UK",
+            "registeredAddress": "3, The Square, Beeston, NG9 2AN, UK",
+            "makerDate": 1528966679000,
+            "makerId": "1"
+          },
+          "description": "Jemma Hamilton",
+          "makerDate": 1517587025000,
+          "makerId": "1",
+          "person": {
+            "partyId": 100000001,
+            "bankId": 1001,
+            "personTypeId": 100000001,
+            "ssn": "JJ920610C",
+            "sex": "f",
+            "foreName": "Julia",
+            "middleName": "Natasha",
+            "lastName": "Cooper",
+            "deceased": "N",
+            "active": "Y",
+            "birthPlace": "uk",
+            "motherMaidenName": "Bethany",
+            "spouseName": "",
+            "militaryRank": "",
+            "dependents": "0",
+            "educationLevel": "post_graduate",
+            "headOfHouseHoldInd": "False",
+            "currentEmploymentStartDate": 1522993823000,
+            "jobTitle": "",
+            "job": "",
+            "originatingBranchId": 10000401,
+            "preferrredBranchId": 10000401,
+            "responsibleBranchId": 10000401,
+            "makerDate": 1522993823000,
+            "makerId": "1"
+          },
+          "organization": {
+            "partyId": 100000001,
+            "bankId": 1001,
+            "organizationName": "rdr",
+            "organizationTypeId": 200000001,
+            "registrationNumber": "77-6780962",
+            "active": "Y",
+            "creditReviewTimeFrame": 1525434441000,
+            "organizationBranchId": 33,
+            "preferredBranchId": 10000210,
+            "responsibleBranchId": 10000210,
+            "numberOfEmployees": 22,
+            "financialReportsURL": "aaa",
+            "makerDate": 1525434441000,
+            "makerId": "1"
+          },
+          "emails": [
+            {
+              "emailsPK": {
+                "partyId": 100000001,
+                "emailType": "O"
+              },
+              "bankId": 1001,
+              "emailId": "wsxcde@gmail.com",
+              "active": "Y",
+              "makerDate": 1525434441000,
+              "makerId": "1"
+            },
+            {
+              "emailsPK": {
+                "partyId": 100000001,
+                "emailType": "P"
+              },
+              "bankId": 1001,
+              "emailId": "mddsabc123@gmail.com",
+              "active": "N",
+              "makerDate": 1522228627000,
+              "makerId": "2"
+            }
+          ],
+          "phoneNumbers": [
+            {
+              "phoneNumberId": 110000006,
+              "partyId": 100000001,
+              "bankId": 1001,
+              "type": "R",
+              "phoneNumber": "05678567567",
+              "active": "y",
+              "makerDate": 1533047936000,
+              "makerId": "1"
+            }
+          ]
+        },
+        "documentName": "xxx",
+        "documentTypeId": 1,
+        "documentOriginalFileName": "xxx",
+        "documentLocation": "xxx",
+        "reference": "xxx",
+        "bankId": 1001,
+        "makerDate": 1532237701000,
+        "makerId": "1"
+      },
+      "proofOfAddressType": "string",
+      "proofOfAddressVerified": "verified",
+      "proofOfAddressDocument": {
+        "documentId": 3,
+        "parties": {
+          "partyId": 100000001,
+          "partyType": "P",
+          "banks": {
+            "bankId": 1001,
+            "bankRegNumber": "MIDLGB21",
+            "bankIdentificationCode": "1001",
+            "bankName": "HSBC",
+            "country": "UK",
+            "registeredAddress": "3, The Square, Beeston, NG9 2AN, UK",
+            "makerDate": 1528966679000,
+            "makerId": "1"
+          },
+          "description": "Jemma Hamilton",
+          "makerDate": 1517587025000,
+          "makerId": "1",
+          "person": {
+            "partyId": 100000001,
+            "bankId": 1001,
+            "personTypeId": 100000001,
+            "ssn": "JJ920610C",
+            "sex": "f",
+            "foreName": "Julia",
+            "middleName": "Natasha",
+            "lastName": "Cooper",
+            "deceased": "N",
+            "active": "Y",
+            "birthPlace": "uk",
+            "motherMaidenName": "Bethany",
+            "spouseName": "",
+            "militaryRank": "",
+            "dependents": "0",
+            "educationLevel": "post_graduate",
+            "headOfHouseHoldInd": "False",
+            "currentEmploymentStartDate": 1522993823000,
+            "jobTitle": "",
+            "job": "",
+            "originatingBranchId": 10000401,
+            "preferrredBranchId": 10000401,
+            "responsibleBranchId": 10000401,
+            "makerDate": 1522993823000,
+            "makerId": "1"
+          },
+          "organization": {
+            "partyId": 100000001,
+            "bankId": 1001,
+            "organizationName": "rdr",
+            "organizationTypeId": 200000001,
+            "registrationNumber": "77-6780962",
+            "active": "Y",
+            "creditReviewTimeFrame": 1525434441000,
+            "organizationBranchId": 33,
+            "preferredBranchId": 10000210,
+            "responsibleBranchId": 10000210,
+            "numberOfEmployees": 22,
+            "financialReportsURL": "aaa",
+            "makerDate": 1525434441000,
+            "makerId": "1"
+          },
+          "emails": [
+            {
+              "emailsPK": {
+                "partyId": 100000001,
+                "emailType": "O"
+              },
+              "bankId": 1001,
+              "emailId": "wsxcde@gmail.com",
+              "active": "Y",
+              "makerDate": 1525434441000,
+              "makerId": "1"
+            },
+            {
+              "emailsPK": {
+                "partyId": 100000001,
+                "emailType": "P"
+              },
+              "bankId": 1001,
+              "emailId": "mddsabc123@gmail.com",
+              "active": "N",
+              "makerDate": 1522228627000,
+              "makerId": "2"
+            }
+          ],
+          "phoneNumbers": [
+            {
+              "phoneNumberId": 110000006,
+              "partyId": 100000001,
+              "bankId": 1001,
+              "type": "R",
+              "phoneNumber": "05678567567",
+              "active": "y",
+              "makerDate": 1533047936000,
+              "makerId": "1"
+            }
+          ]
+        },
+        "documentName": "XXXX",
+        "documentTypeId": 1,
+        "documentOriginalFileName": "XXXX",
+        "documentLocation": "XXXX",
+        "reference": "XXXX",
+        "bankId": 1001,
+        "makerDate": 1518168828000,
+        "makerId": "1"
+      },
+      "proofOfAddressAddressLine1": "string",
+      "proofOfAddressAddressLine2": "string",
+      "proofOfAddressPostCode": "string",
+      "correspondenceSameAsProofOfAddress": "test",
+      "customerRiskScoreStatus": "ToGenerate",
+      "makerDate": 1524396142000,
+      "makerId": "1"
+    },
+    {
+      "kycNumber": 1020,
+      "kycType": "NEW",
+      "kycProcessStatus": "test",
+      "banks": {
+        "bankId": 1001,
+        "bankRegNumber": "MIDLGB21",
+        "bankIdentificationCode": "1001",
+        "bankName": "HSBC",
+        "country": "UK",
+        "registeredAddress": "3, The Square, Beeston, NG9 2AN, UK",
+        "makerDate": 1528966679000,
+        "makerId": "1"
+      },
+      "sex": "m",
+      "forenames": "test",
+      "lastname": "test",
+      "title": "mr",
+      "dob": 1524396142000,
+      "maritalStatus": "s",
+      "nationality": "test",
+      "residenceCountry": "string",
+      "birthPlace": "test",
+      "countryCodeOfBirth": "test",
+      "motherMaidenName": "test",
+      "educationLevel": "test",
+      "headOfHouseHoldInd": "test",
+      "employmentStatus": "A",
+      "proofOfIdentityType": "string",
+      "proofOfIdentityIssuer": "string",
+      "proofOfIdentityNumber": "string",
+      "proofOfIdentityExpiryDate": 1524396142000,
+      "proofOfIdentityVerified": "verified",
+      "proofOfIdentityDocument": {
+        "documentId": 2,
+        "parties": {
+          "partyId": 100000001,
+          "partyType": "P",
+          "banks": {
+            "bankId": 1001,
+            "bankRegNumber": "MIDLGB21",
+            "bankIdentificationCode": "1001",
+            "bankName": "HSBC",
+            "country": "UK",
+            "registeredAddress": "3, The Square, Beeston, NG9 2AN, UK",
+            "makerDate": 1528966679000,
+            "makerId": "1"
+          },
+          "description": "Jemma Hamilton",
+          "makerDate": 1517587025000,
+          "makerId": "1",
+          "person": {
+            "partyId": 100000001,
+            "bankId": 1001,
+            "personTypeId": 100000001,
+            "ssn": "JJ920610C",
+            "sex": "f",
+            "foreName": "Julia",
+            "middleName": "Natasha",
+            "lastName": "Cooper",
+            "deceased": "N",
+            "active": "Y",
+            "birthPlace": "uk",
+            "motherMaidenName": "Bethany",
+            "spouseName": "",
+            "militaryRank": "",
+            "dependents": "0",
+            "educationLevel": "post_graduate",
+            "headOfHouseHoldInd": "False",
+            "currentEmploymentStartDate": 1522993823000,
+            "jobTitle": "",
+            "job": "",
+            "originatingBranchId": 10000401,
+            "preferrredBranchId": 10000401,
+            "responsibleBranchId": 10000401,
+            "makerDate": 1522993823000,
+            "makerId": "1"
+          },
+          "organization": {
+            "partyId": 100000001,
+            "bankId": 1001,
+            "organizationName": "rdr",
+            "organizationTypeId": 200000001,
+            "registrationNumber": "77-6780962",
+            "active": "Y",
+            "creditReviewTimeFrame": 1525434441000,
+            "organizationBranchId": 33,
+            "preferredBranchId": 10000210,
+            "responsibleBranchId": 10000210,
+            "numberOfEmployees": 22,
+            "financialReportsURL": "aaa",
+            "makerDate": 1525434441000,
+            "makerId": "1"
+          },
+          "emails": [
+            {
+              "emailsPK": {
+                "partyId": 100000001,
+                "emailType": "O"
+              },
+              "bankId": 1001,
+              "emailId": "wsxcde@gmail.com",
+              "active": "Y",
+              "makerDate": 1525434441000,
+              "makerId": "1"
+            },
+            {
+              "emailsPK": {
+                "partyId": 100000001,
+                "emailType": "P"
+              },
+              "bankId": 1001,
+              "emailId": "mddsabc123@gmail.com",
+              "active": "N",
+              "makerDate": 1522228627000,
+              "makerId": "2"
+            }
+          ],
+          "phoneNumbers": [
+            {
+              "phoneNumberId": 110000006,
+              "partyId": 100000001,
+              "bankId": 1001,
+              "type": "R",
+              "phoneNumber": "05678567567",
+              "active": "y",
+              "makerDate": 1533047936000,
+              "makerId": "1"
+            }
+          ]
+        },
+        "documentName": "xxx",
+        "documentTypeId": 1,
+        "documentOriginalFileName": "xxx",
+        "documentLocation": "xxx",
+        "reference": "xxx",
+        "bankId": 1001,
+        "makerDate": 1532237701000,
+        "makerId": "1"
+      },
+      "proofOfAddressType": "string",
+      "proofOfAddressVerified": "verified",
+      "proofOfAddressDocument": {
+        "documentId": 3,
+        "parties": {
+          "partyId": 100000001,
+          "partyType": "P",
+          "banks": {
+            "bankId": 1001,
+            "bankRegNumber": "MIDLGB21",
+            "bankIdentificationCode": "1001",
+            "bankName": "HSBC",
+            "country": "UK",
+            "registeredAddress": "3, The Square, Beeston, NG9 2AN, UK",
+            "makerDate": 1528966679000,
+            "makerId": "1"
+          },
+          "description": "Jemma Hamilton",
+          "makerDate": 1517587025000,
+          "makerId": "1",
+          "person": {
+            "partyId": 100000001,
+            "bankId": 1001,
+            "personTypeId": 100000001,
+            "ssn": "JJ920610C",
+            "sex": "f",
+            "foreName": "Julia",
+            "middleName": "Natasha",
+            "lastName": "Cooper",
+            "deceased": "N",
+            "active": "Y",
+            "birthPlace": "uk",
+            "motherMaidenName": "Bethany",
+            "spouseName": "",
+            "militaryRank": "",
+            "dependents": "0",
+            "educationLevel": "post_graduate",
+            "headOfHouseHoldInd": "False",
+            "currentEmploymentStartDate": 1522993823000,
+            "jobTitle": "",
+            "job": "",
+            "originatingBranchId": 10000401,
+            "preferrredBranchId": 10000401,
+            "responsibleBranchId": 10000401,
+            "makerDate": 1522993823000,
+            "makerId": "1"
+          },
+          "organization": {
+            "partyId": 100000001,
+            "bankId": 1001,
+            "organizationName": "rdr",
+            "organizationTypeId": 200000001,
+            "registrationNumber": "77-6780962",
+            "active": "Y",
+            "creditReviewTimeFrame": 1525434441000,
+            "organizationBranchId": 33,
+            "preferredBranchId": 10000210,
+            "responsibleBranchId": 10000210,
+            "numberOfEmployees": 22,
+            "financialReportsURL": "aaa",
+            "makerDate": 1525434441000,
+            "makerId": "1"
+          },
+          "emails": [
+            {
+              "emailsPK": {
+                "partyId": 100000001,
+                "emailType": "O"
+              },
+              "bankId": 1001,
+              "emailId": "wsxcde@gmail.com",
+              "active": "Y",
+              "makerDate": 1525434441000,
+              "makerId": "1"
+            },
+            {
+              "emailsPK": {
+                "partyId": 100000001,
+                "emailType": "P"
+              },
+              "bankId": 1001,
+              "emailId": "mddsabc123@gmail.com",
+              "active": "N",
+              "makerDate": 1522228627000,
+              "makerId": "2"
+            }
+          ],
+          "phoneNumbers": [
+            {
+              "phoneNumberId": 110000006,
+              "partyId": 100000001,
+              "bankId": 1001,
+              "type": "R",
+              "phoneNumber": "05678567567",
+              "active": "y",
+              "makerDate": 1533047936000,
+              "makerId": "1"
+            }
+          ]
+        },
+        "documentName": "XXXX",
+        "documentTypeId": 1,
+        "documentOriginalFileName": "XXXX",
+        "documentLocation": "XXXX",
+        "reference": "XXXX",
+        "bankId": 1001,
+        "makerDate": 1518168828000,
+        "makerId": "1"
+      },
+      "proofOfAddressAddressLine1": "string",
+      "proofOfAddressAddressLine2": "string",
+      "proofOfAddressPostCode": "string",
+      "correspondenceSameAsProofOfAddress": "test",
+      "customerRiskScoreStatus": "ToGenerate",
+      "makerDate": 1524396142000,
+      "makerId": "1"
+    },
+    {
+      "kycNumber": 1021,
+      "kycType": "NEW",
+      "kycProcessStatus": "A",
+      "banks": {
+        "bankId": 1156,
+        "bankRegNumber": "GGGG",
+        "bankIdentificationCode": "FFFF",
+        "bankName": "GGG BANK",
+        "country": "UK",
+        "registeredAddress": "20 King St, London WC2E 8JF, UK",
+        "makerDate": 1524382883000,
+        "makerId": "1"
+      },
+      "sex": "m",
+      "forenames": "Bills",
+      "lastname": "Newman",
+      "title": "MR",
+      "dob": 483016942000,
+      "maritalStatus": "s",
+      "nationality": "British",
+      "residenceCountry": "UK",
+      "birthPlace": "London",
+      "countryCodeOfBirth": "UK",
+      "motherMaidenName": "Larry",
+      "educationLevel": "PHD",
+      "headOfHouseHoldInd": "False",
+      "employmentStatus": "A",
+      "proofOfIdentityType": "A",
+      "proofOfIdentityIssuer": "Test",
+      "proofOfIdentityNumber": "P456",
+      "proofOfIdentityExpiryDate": 1537615342000,
+      "proofOfIdentityVerified": "verified",
+      "proofOfIdentityDocument": {
+        "documentId": 2,
+        "parties": {
+          "partyId": 100000001,
+          "partyType": "P",
+          "banks": {
+            "bankId": 1001,
+            "bankRegNumber": "MIDLGB21",
+            "bankIdentificationCode": "1001",
+            "bankName": "HSBC",
+            "country": "UK",
+            "registeredAddress": "3, The Square, Beeston, NG9 2AN, UK",
+            "makerDate": 1528966679000,
+            "makerId": "1"
+          },
+          "description": "Jemma Hamilton",
+          "makerDate": 1517587025000,
+          "makerId": "1",
+          "person": {
+            "partyId": 100000001,
+            "bankId": 1001,
+            "personTypeId": 100000001,
+            "ssn": "JJ920610C",
+            "sex": "f",
+            "foreName": "Julia",
+            "middleName": "Natasha",
+            "lastName": "Cooper",
+            "deceased": "N",
+            "active": "Y",
+            "birthPlace": "uk",
+            "motherMaidenName": "Bethany",
+            "spouseName": "",
+            "militaryRank": "",
+            "dependents": "0",
+            "educationLevel": "post_graduate",
+            "headOfHouseHoldInd": "False",
+            "currentEmploymentStartDate": 1522993823000,
+            "jobTitle": "",
+            "job": "",
+            "originatingBranchId": 10000401,
+            "preferrredBranchId": 10000401,
+            "responsibleBranchId": 10000401,
+            "makerDate": 1522993823000,
+            "makerId": "1"
+          },
+          "organization": {
+            "partyId": 100000001,
+            "bankId": 1001,
+            "organizationName": "rdr",
+            "organizationTypeId": 200000001,
+            "registrationNumber": "77-6780962",
+            "active": "Y",
+            "creditReviewTimeFrame": 1525434441000,
+            "organizationBranchId": 33,
+            "preferredBranchId": 10000210,
+            "responsibleBranchId": 10000210,
+            "numberOfEmployees": 22,
+            "financialReportsURL": "aaa",
+            "makerDate": 1525434441000,
+            "makerId": "1"
+          },
+          "emails": [
+            {
+              "emailsPK": {
+                "partyId": 100000001,
+                "emailType": "O"
+              },
+              "bankId": 1001,
+              "emailId": "wsxcde@gmail.com",
+              "active": "Y",
+              "makerDate": 1525434441000,
+              "makerId": "1"
+            },
+            {
+              "emailsPK": {
+                "partyId": 100000001,
+                "emailType": "P"
+              },
+              "bankId": 1001,
+              "emailId": "mddsabc123@gmail.com",
+              "active": "N",
+              "makerDate": 1522228627000,
+              "makerId": "2"
+            }
+          ],
+          "phoneNumbers": [
+            {
+              "phoneNumberId": 110000006,
+              "partyId": 100000001,
+              "bankId": 1001,
+              "type": "R",
+              "phoneNumber": "05678567567",
+              "active": "y",
+              "makerDate": 1533047936000,
+              "makerId": "1"
+            }
+          ]
+        },
+        "documentName": "xxx",
+        "documentTypeId": 1,
+        "documentOriginalFileName": "xxx",
+        "documentLocation": "xxx",
+        "reference": "xxx",
+        "bankId": 1001,
+        "makerDate": 1532237701000,
+        "makerId": "1"
+      },
+      "proofOfAddressType": "P",
+      "proofOfAddressVerified": "verified",
+      "proofOfAddressDocument": {
+        "documentId": 3,
+        "parties": {
+          "partyId": 100000001,
+          "partyType": "P",
+          "banks": {
+            "bankId": 1001,
+            "bankRegNumber": "MIDLGB21",
+            "bankIdentificationCode": "1001",
+            "bankName": "HSBC",
+            "country": "UK",
+            "registeredAddress": "3, The Square, Beeston, NG9 2AN, UK",
+            "makerDate": 1528966679000,
+            "makerId": "1"
+          },
+          "description": "Jemma Hamilton",
+          "makerDate": 1517587025000,
+          "makerId": "1",
+          "person": {
+            "partyId": 100000001,
+            "bankId": 1001,
+            "personTypeId": 100000001,
+            "ssn": "JJ920610C",
+            "sex": "f",
+            "foreName": "Julia",
+            "middleName": "Natasha",
+            "lastName": "Cooper",
+            "deceased": "N",
+            "active": "Y",
+            "birthPlace": "uk",
+            "motherMaidenName": "Bethany",
+            "spouseName": "",
+            "militaryRank": "",
+            "dependents": "0",
+            "educationLevel": "post_graduate",
+            "headOfHouseHoldInd": "False",
+            "currentEmploymentStartDate": 1522993823000,
+            "jobTitle": "",
+            "job": "",
+            "originatingBranchId": 10000401,
+            "preferrredBranchId": 10000401,
+            "responsibleBranchId": 10000401,
+            "makerDate": 1522993823000,
+            "makerId": "1"
+          },
+          "organization": {
+            "partyId": 100000001,
+            "bankId": 1001,
+            "organizationName": "rdr",
+            "organizationTypeId": 200000001,
+            "registrationNumber": "77-6780962",
+            "active": "Y",
+            "creditReviewTimeFrame": 1525434441000,
+            "organizationBranchId": 33,
+            "preferredBranchId": 10000210,
+            "responsibleBranchId": 10000210,
+            "numberOfEmployees": 22,
+            "financialReportsURL": "aaa",
+            "makerDate": 1525434441000,
+            "makerId": "1"
+          },
+          "emails": [
+            {
+              "emailsPK": {
+                "partyId": 100000001,
+                "emailType": "O"
+              },
+              "bankId": 1001,
+              "emailId": "wsxcde@gmail.com",
+              "active": "Y",
+              "makerDate": 1525434441000,
+              "makerId": "1"
+            },
+            {
+              "emailsPK": {
+                "partyId": 100000001,
+                "emailType": "P"
+              },
+              "bankId": 1001,
+              "emailId": "mddsabc123@gmail.com",
+              "active": "N",
+              "makerDate": 1522228627000,
+              "makerId": "2"
+            }
+          ],
+          "phoneNumbers": [
+            {
+              "phoneNumberId": 110000006,
+              "partyId": 100000001,
+              "bankId": 1001,
+              "type": "R",
+              "phoneNumber": "05678567567",
+              "active": "y",
+              "makerDate": 1533047936000,
+              "makerId": "1"
+            }
+          ]
+        },
+        "documentName": "XXXX",
+        "documentTypeId": 1,
+        "documentOriginalFileName": "XXXX",
+        "documentLocation": "XXXX",
+        "reference": "XXXX",
+        "bankId": 1001,
+        "makerDate": 1518168828000,
+        "makerId": "1"
+      },
+      "proofOfAddressAddressLine1": "Albert Street",
+      "proofOfAddressAddressLine2": "Seattle",
+      "proofOfAddressPostCode": "45789",
+      "correspondenceSameAsProofOfAddress": "Flower Street",
+      "customerRiskScoreStatus": "ToGenerate",
+      "makerDate": 1534936942000,
+      "makerId": "1"
+    }
+  ]
