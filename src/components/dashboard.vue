@@ -9,7 +9,7 @@
         </v-card-title>
         <v-layout ml-3>
           <v-flex xs12>
-              <v-btn flat color="primary">
+              <v-btn dark color="purple">
                   View catalogue
               </v-btn>
             </div>     
@@ -20,7 +20,8 @@
         <v-container fluid grid-list-sm>
           <v-layout row wrap>
             <v-flex v-for="reward in rewards" :key="i" xs4>
-              <img :src="reward.img" class="image" alt="lorem" width="100%" height="100%">
+              <img :src="reward.img" class="image" alt="lorem" width="100%" height="80%">
+              <h5>{{ reward.point }}</h5>
             </v-flex>
           </v-layout>
         </v-container>
@@ -70,12 +71,12 @@
         data () {
             return {
               rewards: [
-                { img: 'https://res.cloudinary.com/pangea-prod/image/upload/b_white,c_pad,h_300,w_300/production/gpofyeftcpv2zhwbwvxu.jpg', point: '233,615' },
-                { img: 'https://res.cloudinary.com/pangea-prod/image/upload/b_white,c_pad,h_300,w_300/production/nkldqsdufhfdzg7jue5s.jpg', point: '118,535' },
-                { img: 'https://res.cloudinary.com/pangea-prod/image/upload/b_white,c_pad,h_300,w_300/production/wmqru13uafek0uu00jse.jpg', point: '41,455' },
-                { img: 'https://res.cloudinary.com/pangea-prod/image/upload/b_white,c_pad,h_300,w_300/production/hzic2m8dornjylrgs1tn.jpg', point: '55,700' },
-                { img: 'https://res.cloudinary.com/pangea-prod/image/upload/b_white,c_pad,h_300,w_300/production/e4mhbduxektb2b8v8nqc.jpg', point: '41,055' },
-                { img: 'https://res.cloudinary.com/pangea-prod/image/upload/b_white,c_pad,h_300,w_300/production/vbqjz0nj47qtbi9nuxsr.jpg', point: '20,690' }
+                { img: 'https://res.cloudinary.com/pangea-prod/image/upload/b_white,c_pad,h_300,w_300/production/gpofyeftcpv2zhwbwvxu.jpg', point: '233,615 points' },
+                { img: 'https://res.cloudinary.com/pangea-prod/image/upload/b_white,c_pad,h_300,w_300/production/nkldqsdufhfdzg7jue5s.jpg', point: '118,535 points' },
+                { img: 'https://res.cloudinary.com/pangea-prod/image/upload/b_white,c_pad,h_300,w_300/production/wmqru13uafek0uu00jse.jpg', point: '41,455 points' },
+                { img: 'https://res.cloudinary.com/pangea-prod/image/upload/b_white,c_pad,h_300,w_300/production/hzic2m8dornjylrgs1tn.jpg', point: '55,700 points' },
+                { img: 'https://res.cloudinary.com/pangea-prod/image/upload/b_white,c_pad,h_300,w_300/production/e4mhbduxektb2b8v8nqc.jpg', point: '41,055 points' },
+                { img: 'https://res.cloudinary.com/pangea-prod/image/upload/b_white,c_pad,h_300,w_300/production/vbqjz0nj47qtbi9nuxsr.jpg', point: 'Redeem Now' }
               ],
               stats: [
                 {

@@ -28,7 +28,7 @@
             </div>     
           </v-flex>
         </v-layout>
-        <div v-if="showFriends == false">Click the button to demo the user experience journey.</div>
+        <div v-if="showFriends == false">Click "Invite Friends" to show demo</div>
         <v-list v-for="item in items"
             :key="item.title"
             avatar v-if="showFriends">
