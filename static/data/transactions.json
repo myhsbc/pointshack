@@ -1,0 +1,887 @@
+{
+    "Data": {
+      "Transaction": [
+        {
+          "AccountId": "AID907186",
+          "TransactionId": "384319008",
+          "TransactionReference": "PID732223949",
+          "Amount": {
+            "Amount": "583.97",
+            "Currency": "GBP"
+          },
+          "CreditDebitIndicator": "Credit",
+          "Status": "Success",
+          "BookingDateTime": "2018-01-01T00:00:00+00:00",
+          "ValueDateTime": "2018-01-01T00:00:00+00:00",
+          "TransactionInformation": "PersonToPerson Payment",
+          "AddressLine": "xxx",
+          "BankTransactionCode": {
+            "Code": "PersonToPerson",
+            "SubCode": "AutomaticTransfer"
+          },
+          "ProprietaryBankTransactionCode": {
+            "Code": "DirectDebit",
+            "Issuer": "First Direct"
+          },
+          "Balance": {
+            "Amount": {
+              "Amount": "58,080.53",
+              "Currency": "GBP"
+            },
+            "CreditDebitIndicator": "Credit",
+            "Type": "ClosingAvailable"
+          },
+          "MerchantDetails": {
+            "MerchantName": "Luke Douglas Davies",
+            "MerchantCategoryCode": "xxx"
+          }
+        },
+        {
+          "AccountId": "AID907186",
+          "TransactionId": "384319009",
+          "TransactionReference": "PID443962017",
+          "Amount": {
+            "Amount": "533.94",
+            "Currency": "GBP"
+          },
+          "CreditDebitIndicator": "Debit",
+          "Status": "Success",
+          "BookingDateTime": "2018-01-01T00:00:00+00:00",
+          "ValueDateTime": "2018-01-01T00:00:00+00:00",
+          "TransactionInformation": "EcommerceGoods Payment",
+          "AddressLine": "41, Cowslip Lane, Keddington CP,LN11 0QS,Louth",
+          "BankTransactionCode": {
+            "Code": "EcommerceGoods",
+            "SubCode": "StandingOrder"
+          },
+          "ProprietaryBankTransactionCode": {
+            "Code": "StandingOrder",
+            "Issuer": "First Direct"
+          },
+          "Balance": {
+            "Amount": {
+              "Amount": "57,546.59",
+              "Currency": "GBP"
+            },
+            "CreditDebitIndicator": "Debit",
+            "Type": "ClosingAvailable"
+          },
+          "MerchantDetails": {
+            "MerchantName": "John  Rhee",
+            "MerchantCategoryCode": "3137"
+          }
+        },
+        {
+          "AccountId": "AID907186",
+          "TransactionId": "384319010",
+          "TransactionReference": "PID170206507",
+          "Amount": {
+            "Amount": "411.93",
+            "Currency": "GBP"
+          },
+          "CreditDebitIndicator": "Debit",
+          "Status": "Success",
+          "BookingDateTime": "2018-01-03T00:00:00+00:00",
+          "ValueDateTime": "2018-01-03T00:00:00+00:00",
+          "TransactionInformation": "PersonToPerson Payment",
+          "AddressLine": "xxx",
+          "BankTransactionCode": {
+            "Code": "PersonToPerson",
+            "SubCode": "StandingOrder"
+          },
+          "ProprietaryBankTransactionCode": {
+            "Code": "StandingOrder",
+            "Issuer": "First Direct"
+          },
+          "Balance": {
+            "Amount": {
+              "Amount": "57,134.66",
+              "Currency": "GBP"
+            },
+            "CreditDebitIndicator": "Debit",
+            "Type": "ClosingAvailable"
+          },
+          "MerchantDetails": {
+            "MerchantName": "Ryan  Torres",
+            "MerchantCategoryCode": ""
+          }
+        },
+        {
+          "AccountId": "AID907186",
+          "TransactionId": "384319011",
+          "TransactionReference": "PID809258566",
+          "Amount": {
+            "Amount": "483.64",
+            "Currency": "GBP"
+          },
+          "CreditDebitIndicator": "Debit",
+          "Status": "Success",
+          "BookingDateTime": "2018-01-03T00:00:00+00:00",
+          "ValueDateTime": "2018-01-03T00:00:00+00:00",
+          "TransactionInformation": "EcommerceServices Payment",
+          "AddressLine": "24, Wall House Lane, Feckenham,B60 4HS,Bromsgrove",
+          "BankTransactionCode": {
+            "Code": "EcommerceServices",
+            "SubCode": "AutomaticTransfer"
+          },
+          "ProprietaryBankTransactionCode": {
+            "Code": "DirectDebit",
+            "Issuer": "First Direct"
+          },
+          "Balance": {
+            "Amount": {
+              "Amount": "56,651.02",
+              "Currency": "GBP"
+            },
+            "CreditDebitIndicator": "Debit",
+            "Type": "ClosingAvailable"
+          },
+          "MerchantDetails": {
+            "MerchantName": "Abdul George Barnett",
+            "MerchantCategoryCode": "3352"
+          }
+        },
+        {
+          "AccountId": "AID907186",
+          "TransactionId": "384319012",
+          "TransactionReference": "PID321360915",
+          "Amount": {
+            "Amount": "608.59",
+            "Currency": "GBP"
+          },
+          "CreditDebitIndicator": "Credit",
+          "Status": "Success",
+          "BookingDateTime": "2018-01-03T00:00:00+00:00",
+          "ValueDateTime": "2018-01-03T00:00:00+00:00",
+          "TransactionInformation": "BillPayment Payment",
+          "AddressLine": "xxx",
+          "BankTransactionCode": {
+            "Code": "BillPayment",
+            "SubCode": "StandingOrder"
+          },
+          "ProprietaryBankTransactionCode": {
+            "Code": "StandingOrder",
+            "Issuer": "Bank B"
+          },
+          "Balance": {
+            "Amount": {
+              "Amount": "57,259.61",
+              "Currency": "GBP"
+            },
+            "CreditDebitIndicator": "Credit",
+            "Type": "ClosingAvailable"
+          },
+          "MerchantDetails": {
+            "MerchantName": "David Kenneth Gill",
+            "MerchantCategoryCode": "3665"
+          }
+        },
+        {
+          "AccountId": "AID907186",
+          "TransactionId": "384319013",
+          "TransactionReference": "PID309637998",
+          "Amount": {
+            "Amount": "319.84",
+            "Currency": "GBP"
+          },
+          "CreditDebitIndicator": "Debit",
+          "Status": "Rejected",
+          "BookingDateTime": "2018-01-03T00:00:00+00:00",
+          "ValueDateTime": "2018-01-03T00:00:00+00:00",
+          "TransactionInformation": "nan Payment",
+          "AddressLine": "39, Damask Green Road, Weston,SG5 3UU,Hitchin",
+          "BankTransactionCode": {
+            "Code": "",
+            "SubCode": "XXX"
+          },
+          "ProprietaryBankTransactionCode": {
+            "Code": "XXX",
+            "Issuer": "Barclays Bank"
+          },
+          "Balance": {
+            "Amount": {
+              "Amount": "57,259.61",
+              "Currency": "GBP"
+            },
+            "CreditDebitIndicator": "Debit",
+            "Type": "ClosingAvailable"
+          },
+          "MerchantDetails": {
+            "MerchantName": "Hartley, Wong and Nicholls",
+            "MerchantCategoryCode": ""
+          }
+        },
+        {
+          "AccountId": "AID907186",
+          "TransactionId": "384319014",
+          "TransactionReference": "PID632568532",
+          "Amount": {
+            "Amount": "295.46",
+            "Currency": "GBP"
+          },
+          "CreditDebitIndicator": "Debit",
+          "Status": "Success",
+          "BookingDateTime": "2018-01-04T00:00:00+00:00",
+          "ValueDateTime": "2018-01-04T00:00:00+00:00",
+          "TransactionInformation": "EcommerceServices Payment",
+          "AddressLine": "82, Victorinox, Blenheim Street,W1S 1LD,Paddington",
+          "BankTransactionCode": {
+            "Code": "EcommerceServices",
+            "SubCode": "StandingOrder"
+          },
+          "ProprietaryBankTransactionCode": {
+            "Code": "StandingOrder",
+            "Issuer": "First Direct"
+          },
+          "Balance": {
+            "Amount": {
+              "Amount": "56,964.15",
+              "Currency": "GBP"
+            },
+            "CreditDebitIndicator": "Debit",
+            "Type": "ClosingAvailable"
+          },
+          "MerchantDetails": {
+            "MerchantName": "Jay Bruce Chan",
+            "MerchantCategoryCode": "5462"
+          }
+        },
+        {
+          "AccountId": "AID907186",
+          "TransactionId": "384319015",
+          "TransactionReference": "PID909218589",
+          "Amount": {
+            "Amount": "746.09",
+            "Currency": "GBP"
+          },
+          "CreditDebitIndicator": "Debit",
+          "Status": "Success",
+          "BookingDateTime": "2018-01-04T00:00:00+00:00",
+          "ValueDateTime": "2018-01-04T00:00:00+00:00",
+          "TransactionInformation": "EcommerceServices Payment",
+          "AddressLine": "55, Ada Close, Brunswick Park,N20 0RY,Finsbury Park",
+          "BankTransactionCode": {
+            "Code": "EcommerceServices",
+            "SubCode": "AutomaticTransfer"
+          },
+          "ProprietaryBankTransactionCode": {
+            "Code": "DirectDebit",
+            "Issuer": "First Direct"
+          },
+          "Balance": {
+            "Amount": {
+              "Amount": "56,218.06",
+              "Currency": "GBP"
+            },
+            "CreditDebitIndicator": "Debit",
+            "Type": "ClosingAvailable"
+          },
+          "MerchantDetails": {
+            "MerchantName": "Mathew Paul Parkes",
+            "MerchantCategoryCode": "3574"
+          }
+        },
+        {
+          "AccountId": "AID907186",
+          "TransactionId": "384319016",
+          "TransactionReference": "PID601217798",
+          "Amount": {
+            "Amount": "1,305.51",
+            "Currency": "GBP"
+          },
+          "CreditDebitIndicator": "Debit",
+          "Status": "Success",
+          "BookingDateTime": "2018-01-04T00:00:00+00:00",
+          "ValueDateTime": "2018-01-04T00:00:00+00:00",
+          "TransactionInformation": "EcommerceServices Payment",
+          "AddressLine": "87, Arundel Road, Angmering,BN16 4AG,Rustington",
+          "BankTransactionCode": {
+            "Code": "EcommerceServices",
+            "SubCode": "DomesticCreditTransfer"
+          },
+          "ProprietaryBankTransactionCode": {
+            "Code": "Transfer",
+            "Issuer": "First Direct"
+          },
+          "Balance": {
+            "Amount": {
+              "Amount": "54,912.55",
+              "Currency": "GBP"
+            },
+            "CreditDebitIndicator": "Debit",
+            "Type": "ClosingAvailable"
+          },
+          "MerchantDetails": {
+            "MerchantName": "Toby Geoffrey Lord",
+            "MerchantCategoryCode": "3652"
+          }
+        },
+        {
+          "AccountId": "AID907186",
+          "TransactionId": "384319017",
+          "TransactionReference": "PID614464880",
+          "Amount": {
+            "Amount": "717.15",
+            "Currency": "GBP"
+          },
+          "CreditDebitIndicator": "Credit",
+          "Status": "Success",
+          "BookingDateTime": "2018-01-04T00:00:00+00:00",
+          "ValueDateTime": "2018-01-04T00:00:00+00:00",
+          "TransactionInformation": "EcommerceGoods Payment",
+          "AddressLine": "xxx",
+          "BankTransactionCode": {
+            "Code": "EcommerceGoods",
+            "SubCode": "AutomaticTransfer"
+          },
+          "ProprietaryBankTransactionCode": {
+            "Code": "DirectDebit",
+            "Issuer": "Bank B"
+          },
+          "Balance": {
+            "Amount": {
+              "Amount": "55,629.70",
+              "Currency": "GBP"
+            },
+            "CreditDebitIndicator": "Credit",
+            "Type": "ClosingAvailable"
+          },
+          "MerchantDetails": {
+            "MerchantName": "Areli  Fernandez",
+            "MerchantCategoryCode": "3146"
+          }
+        },
+        {
+          "AccountId": "AID907186",
+          "TransactionId": "384319018",
+          "TransactionReference": "PID592907841",
+          "Amount": {
+            "Amount": "2,165.66",
+            "Currency": "GBP"
+          },
+          "CreditDebitIndicator": "Credit",
+          "Status": "Success",
+          "BookingDateTime": "2018-01-05T00:00:00+00:00",
+          "ValueDateTime": "2018-01-05T00:00:00+00:00",
+          "TransactionInformation": "PersonToPerson Payment",
+          "AddressLine": "xxx",
+          "BankTransactionCode": {
+            "Code": "PersonToPerson",
+            "SubCode": "DomesticCreditTransfer"
+          },
+          "ProprietaryBankTransactionCode": {
+            "Code": "Transfer",
+            "Issuer": "HSBC"
+          },
+          "Balance": {
+            "Amount": {
+              "Amount": "57,795.36",
+              "Currency": "GBP"
+            },
+            "CreditDebitIndicator": "Credit",
+            "Type": "ClosingAvailable"
+          },
+          "MerchantDetails": {
+            "MerchantName": "Amber Chloe Bell",
+            "MerchantCategoryCode": "xxx"
+          }
+        },
+        {
+          "AccountId": "AID907186",
+          "TransactionId": "384319019",
+          "TransactionReference": "PID546049071",
+          "Amount": {
+            "Amount": "520.85",
+            "Currency": "GBP"
+          },
+          "CreditDebitIndicator": "Credit",
+          "Status": "Success",
+          "BookingDateTime": "2018-01-05T00:00:00+00:00",
+          "ValueDateTime": "2018-01-05T00:00:00+00:00",
+          "TransactionInformation": "EcommerceServices Payment",
+          "AddressLine": "xxx",
+          "BankTransactionCode": {
+            "Code": "EcommerceServices",
+            "SubCode": "StandingOrder"
+          },
+          "ProprietaryBankTransactionCode": {
+            "Code": "StandingOrder",
+            "Issuer": "First Direct"
+          },
+          "Balance": {
+            "Amount": {
+              "Amount": "58,316.21",
+              "Currency": "GBP"
+            },
+            "CreditDebitIndicator": "Credit",
+            "Type": "ClosingAvailable"
+          },
+          "MerchantDetails": {
+            "MerchantName": "Stanley Mitchell Richardson",
+            "MerchantCategoryCode": "3523"
+          }
+        },
+        {
+          "AccountId": "AID907186",
+          "TransactionId": "384319020",
+          "TransactionReference": "PID242722118",
+          "Amount": {
+            "Amount": "578.75",
+            "Currency": "GBP"
+          },
+          "CreditDebitIndicator": "Debit",
+          "Status": "Success",
+          "BookingDateTime": "2018-01-05T00:00:00+00:00",
+          "ValueDateTime": "2018-01-05T00:00:00+00:00",
+          "TransactionInformation": "Other Payment",
+          "AddressLine": "72, Oxford Road, Gerrards Cross,SL9 7PA,Beaconsfield",
+          "BankTransactionCode": {
+            "Code": "Other",
+            "SubCode": "AutomaticTransfer"
+          },
+          "ProprietaryBankTransactionCode": {
+            "Code": "DirectDebit",
+            "Issuer": "First Direct"
+          },
+          "Balance": {
+            "Amount": {
+              "Amount": "57,737.46",
+              "Currency": "GBP"
+            },
+            "CreditDebitIndicator": "Debit",
+            "Type": "ClosingAvailable"
+          },
+          "MerchantDetails": {
+            "MerchantName": "Jason Henry Price",
+            "MerchantCategoryCode": "3779"
+          }
+        },
+        {
+          "AccountId": "AID907186",
+          "TransactionId": "384319021",
+          "TransactionReference": "PID397067189",
+          "Amount": {
+            "Amount": "552.69",
+            "Currency": "GBP"
+          },
+          "CreditDebitIndicator": "Credit",
+          "Status": "Success",
+          "BookingDateTime": "2018-01-06T00:00:00+00:00",
+          "ValueDateTime": "2018-01-06T00:00:00+00:00",
+          "TransactionInformation": "EcommerceServices Payment",
+          "AddressLine": "xxx",
+          "BankTransactionCode": {
+            "Code": "EcommerceServices",
+            "SubCode": "StandingOrder"
+          },
+          "ProprietaryBankTransactionCode": {
+            "Code": "StandingOrder",
+            "Issuer": "HSBC"
+          },
+          "Balance": {
+            "Amount": {
+              "Amount": "58,290.15",
+              "Currency": "GBP"
+            },
+            "CreditDebitIndicator": "Credit",
+            "Type": "ClosingAvailable"
+          },
+          "MerchantDetails": {
+            "MerchantName": "Amber Joanna Barber",
+            "MerchantCategoryCode": "3133"
+          }
+        },
+        {
+          "AccountId": "AID907186",
+          "TransactionId": "384319022",
+          "TransactionReference": "PID521039011",
+          "Amount": {
+            "Amount": "1,266.86",
+            "Currency": "GBP"
+          },
+          "CreditDebitIndicator": "Debit",
+          "Status": "Success",
+          "BookingDateTime": "2018-01-11T00:00:00+00:00",
+          "ValueDateTime": "2018-01-11T00:00:00+00:00",
+          "TransactionInformation": "nan Payment",
+          "AddressLine": "68, Hollin Bank, Braddan,IM1 4BR,Douglas",
+          "BankTransactionCode": {
+            "Code": "",
+            "SubCode": "XXX"
+          },
+          "ProprietaryBankTransactionCode": {
+            "Code": "XXX",
+            "Issuer": "Esme"
+          },
+          "Balance": {
+            "Amount": {
+              "Amount": "57,023.29",
+              "Currency": "GBP"
+            },
+            "CreditDebitIndicator": "Debit",
+            "Type": "ClosingAvailable"
+          },
+          "MerchantDetails": {
+            "MerchantName": "Lees-Pope",
+            "MerchantCategoryCode": ""
+          }
+        },
+        {
+          "AccountId": "AID907186",
+          "TransactionId": "384319023",
+          "TransactionReference": "PID458594573",
+          "Amount": {
+            "Amount": "440.98",
+            "Currency": "GBP"
+          },
+          "CreditDebitIndicator": "Debit",
+          "Status": "Success",
+          "BookingDateTime": "2018-01-11T00:00:00+00:00",
+          "ValueDateTime": "2018-01-11T00:00:00+00:00",
+          "TransactionInformation": "nan Payment",
+          "AddressLine": "76, Tewfittmire Lane, Eden,CA11 7NE,Penrith",
+          "BankTransactionCode": {
+            "Code": "",
+            "SubCode": "XXX"
+          },
+          "ProprietaryBankTransactionCode": {
+            "Code": "XXX",
+            "Issuer": "First Trust Bank"
+          },
+          "Balance": {
+            "Amount": {
+              "Amount": "56,582.31",
+              "Currency": "GBP"
+            },
+            "CreditDebitIndicator": "Debit",
+            "Type": "ClosingAvailable"
+          },
+          "MerchantDetails": {
+            "MerchantName": "Pearson-Tomlinson",
+            "MerchantCategoryCode": ""
+          }
+        },
+        {
+          "AccountId": "AID907186",
+          "TransactionId": "384319024",
+          "TransactionReference": "PID773802859",
+          "Amount": {
+            "Amount": "258.55",
+            "Currency": "GBP"
+          },
+          "CreditDebitIndicator": "Debit",
+          "Status": "Success",
+          "BookingDateTime": "2018-01-13T00:00:00+00:00",
+          "ValueDateTime": "2018-01-13T00:00:00+00:00",
+          "TransactionInformation": "nan Payment",
+          "AddressLine": "B4115, Ashow CP, Warwick,CV8 2LN,Kenilworth",
+          "BankTransactionCode": {
+            "Code": "",
+            "SubCode": "XXX"
+          },
+          "ProprietaryBankTransactionCode": {
+            "Code": "XXX",
+            "Issuer": "Coutts"
+          },
+          "Balance": {
+            "Amount": {
+              "Amount": "56,323.76",
+              "Currency": "GBP"
+            },
+            "CreditDebitIndicator": "Debit",
+            "Type": "ClosingAvailable"
+          },
+          "MerchantDetails": {
+            "MerchantName": "Watts-Parker",
+            "MerchantCategoryCode": ""
+          }
+        },
+        {
+          "AccountId": "AID907186",
+          "TransactionId": "384319025",
+          "TransactionReference": "PID431141591",
+          "Amount": {
+            "Amount": "651.99",
+            "Currency": "GBP"
+          },
+          "CreditDebitIndicator": "Credit",
+          "Status": "Success",
+          "BookingDateTime": "2018-01-14T00:00:00+00:00",
+          "ValueDateTime": "2018-01-14T00:00:00+00:00",
+          "TransactionInformation": "EcommerceServices Payment",
+          "AddressLine": "xxx",
+          "BankTransactionCode": {
+            "Code": "EcommerceServices",
+            "SubCode": "DomesticCreditTransfer"
+          },
+          "ProprietaryBankTransactionCode": {
+            "Code": "Transfer",
+            "Issuer": "HSBC"
+          },
+          "Balance": {
+            "Amount": {
+              "Amount": "56,975.75",
+              "Currency": "GBP"
+            },
+            "CreditDebitIndicator": "Credit",
+            "Type": "ClosingAvailable"
+          },
+          "MerchantDetails": {
+            "MerchantName": "Howard Tony Bradley",
+            "MerchantCategoryCode": "3522"
+          }
+        },
+        {
+          "AccountId": "AID907186",
+          "TransactionId": "384319026",
+          "TransactionReference": "PID634185536",
+          "Amount": {
+            "Amount": "835.56",
+            "Currency": "GBP"
+          },
+          "CreditDebitIndicator": "Debit",
+          "Status": "Success",
+          "BookingDateTime": "2018-01-19T00:00:00+00:00",
+          "ValueDateTime": "2018-01-19T00:00:00+00:00",
+          "TransactionInformation": "nan Payment",
+          "AddressLine": "29, Rue de la Corbiere, Saint Peter Port,GY1 1FG,Guernsey",
+          "BankTransactionCode": {
+            "Code": "",
+            "SubCode": "XXX"
+          },
+          "ProprietaryBankTransactionCode": {
+            "Code": "XXX",
+            "Issuer": "Allied Irish Bank (GB)"
+          },
+          "Balance": {
+            "Amount": {
+              "Amount": "56,140.19",
+              "Currency": "GBP"
+            },
+            "CreditDebitIndicator": "Debit",
+            "Type": "ClosingAvailable"
+          },
+          "MerchantDetails": {
+            "MerchantName": "O'Brien-Carter",
+            "MerchantCategoryCode": ""
+          }
+        },
+        {
+          "AccountId": "AID907186",
+          "TransactionId": "384319027",
+          "TransactionReference": "PID395651268",
+          "Amount": {
+            "Amount": "647.03",
+            "Currency": "GBP"
+          },
+          "CreditDebitIndicator": "Debit",
+          "Status": "Success",
+          "BookingDateTime": "2018-01-21T00:00:00+00:00",
+          "ValueDateTime": "2018-01-21T00:00:00+00:00",
+          "TransactionInformation": "BillPayment Payment",
+          "AddressLine": "65, Syon Park, Lime Avenue,TW8 8JG,Southall",
+          "BankTransactionCode": {
+            "Code": "BillPayment",
+            "SubCode": "DomesticCreditTransfer"
+          },
+          "ProprietaryBankTransactionCode": {
+            "Code": "Transfer",
+            "Issuer": "First Direct"
+          },
+          "Balance": {
+            "Amount": {
+              "Amount": "55,493.16",
+              "Currency": "GBP"
+            },
+            "CreditDebitIndicator": "Debit",
+            "Type": "ClosingAvailable"
+          },
+          "MerchantDetails": {
+            "MerchantName": "Phillip Cameron Chan",
+            "MerchantCategoryCode": "3740"
+          }
+        },
+        {
+          "AccountId": "AID907186",
+          "TransactionId": "384319028",
+          "TransactionReference": "PID828514590",
+          "Amount": {
+            "Amount": "631.44",
+            "Currency": "GBP"
+          },
+          "CreditDebitIndicator": "Debit",
+          "Status": "Success",
+          "BookingDateTime": "2018-01-23T00:00:00+00:00",
+          "ValueDateTime": "2018-01-23T00:00:00+00:00",
+          "TransactionInformation": "PersonToPerson Payment",
+          "AddressLine": "xxx",
+          "BankTransactionCode": {
+            "Code": "PersonToPerson",
+            "SubCode": "DomesticCreditTransfer"
+          },
+          "ProprietaryBankTransactionCode": {
+            "Code": "Transfer",
+            "Issuer": "First Direct"
+          },
+          "Balance": {
+            "Amount": {
+              "Amount": "54,861.72",
+              "Currency": "GBP"
+            },
+            "CreditDebitIndicator": "Debit",
+            "Type": "ClosingAvailable"
+          },
+          "MerchantDetails": {
+            "MerchantName": "Stephen Albert Richards",
+            "MerchantCategoryCode": ""
+          }
+        },
+        {
+          "AccountId": "AID907186",
+          "TransactionId": "384319029",
+          "TransactionReference": "PID652568256",
+          "Amount": {
+            "Amount": "666.77",
+            "Currency": "GBP"
+          },
+          "CreditDebitIndicator": "Debit",
+          "Status": "Success",
+          "BookingDateTime": "2018-01-24T00:00:00+00:00",
+          "ValueDateTime": "2018-01-24T00:00:00+00:00",
+          "TransactionInformation": "Other Payment",
+          "AddressLine": "8, Sconce Lane, Bingley,BD16 1EE,Keighley",
+          "BankTransactionCode": {
+            "Code": "Other",
+            "SubCode": "DomesticCreditTransfer"
+          },
+          "ProprietaryBankTransactionCode": {
+            "Code": "Transfer",
+            "Issuer": "First Direct"
+          },
+          "Balance": {
+            "Amount": {
+              "Amount": "54,194.95",
+              "Currency": "GBP"
+            },
+            "CreditDebitIndicator": "Debit",
+            "Type": "ClosingAvailable"
+          },
+          "MerchantDetails": {
+            "MerchantName": "Catherine Bethan Norton",
+            "MerchantCategoryCode": "7523"
+          }
+        },
+        {
+          "AccountId": "AID907186",
+          "TransactionId": "384319030",
+          "TransactionReference": "PID400810218",
+          "Amount": {
+            "Amount": "930.48",
+            "Currency": "GBP"
+          },
+          "CreditDebitIndicator": "Credit",
+          "Status": "Success",
+          "BookingDateTime": "2018-01-27T00:00:00+00:00",
+          "ValueDateTime": "2018-01-27T00:00:00+00:00",
+          "TransactionInformation": "PersonToPerson Payment",
+          "AddressLine": "xxx",
+          "BankTransactionCode": {
+            "Code": "PersonToPerson",
+            "SubCode": "DomesticCreditTransfer"
+          },
+          "ProprietaryBankTransactionCode": {
+            "Code": "Transfer",
+            "Issuer": "HSBC"
+          },
+          "Balance": {
+            "Amount": {
+              "Amount": "55,125.43",
+              "Currency": "GBP"
+            },
+            "CreditDebitIndicator": "Credit",
+            "Type": "ClosingAvailable"
+          },
+          "MerchantDetails": {
+            "MerchantName": "Nicole Lynn Stone",
+            "MerchantCategoryCode": "xxx"
+          }
+        },
+        {
+          "AccountId": "AID907186",
+          "TransactionId": "384319031",
+          "TransactionReference": "",
+          "Amount": {
+            "Amount": "792.02",
+            "Currency": "GBP"
+          },
+          "CreditDebitIndicator": "Credit",
+          "Status": "Success",
+          "BookingDateTime": "2018-01-27T00:00:00+00:00",
+          "ValueDateTime": "2018-01-27T00:00:00+00:00",
+          "TransactionInformation": "creditTransfer credit",
+          "AddressLine": "xxx",
+          "BankTransactionCode": {
+            "Code": "xxx",
+            "SubCode": "XXX"
+          },
+          "ProprietaryBankTransactionCode": {
+            "Code": "XXX",
+            "Issuer": "Lloyds Bank"
+          },
+          "Balance": {
+            "Amount": {
+              "Amount": "55,917.45",
+              "Currency": "GBP"
+            },
+            "CreditDebitIndicator": "Credit",
+            "Type": "ClosingAvailable"
+          },
+          "MerchantDetails": {
+            "MerchantName": "Coles, Allen and Ryan",
+            "MerchantCategoryCode": "xxx"
+          }
+        },
+        {
+          "AccountId": "AID907186",
+          "TransactionId": "384319032",
+          "TransactionReference": "PID666187651",
+          "Amount": {
+            "Amount": "1,197.31",
+            "Currency": "GBP"
+          },
+          "CreditDebitIndicator": "Credit",
+          "Status": "Success",
+          "BookingDateTime": "2018-01-29T00:00:00+00:00",
+          "ValueDateTime": "2018-01-29T00:00:00+00:00",
+          "TransactionInformation": "EcommerceGoods Payment",
+          "AddressLine": "xxx",
+          "BankTransactionCode": {
+            "Code": "EcommerceGoods",
+            "SubCode": "DomesticCreditTransfer"
+          },
+          "ProprietaryBankTransactionCode": {
+            "Code": "Transfer",
+            "Issuer": "HSBC"
+          },
+          "Balance": {
+            "Amount": {
+              "Amount": "57,114.76",
+              "Currency": "GBP"
+            },
+            "CreditDebitIndicator": "Credit",
+            "Type": "ClosingAvailable"
+          },
+          "MerchantDetails": {
+            "MerchantName": "Harriet Megan Hall",
+            "MerchantCategoryCode": "7623"
+          }
+        }
+      ]
+    },
+    "Links": {
+      "Self": "/accounts/AID907186/transactions"
+    },
+    "Meta": {
+      "TotalPages": 1
+    }
+  }

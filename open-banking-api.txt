@@ -1,0 +1,24 @@
+Sample Account Details
+No.	Bank Name	SchemeName	Identification	Name	SecondaryIdentification
+1.	HSBC	SortCodeAccountNumber	10037610000001	Jemma Karen Hamilton	A6R09R
+2.	HSBC	SortCodeAccountNumber	10026910000002	Carly Sandra Watson	03VRAW
+3.	HSBC	SortCodeAccountNumber	10000110001966	Louis Ashley Lloyd	7PHNY0
+4.	HSBC	SortCodeAccountNumber	10000110110298	Liam Brett Hall	76K83P
+5.	HSBC	SortCodeAccountNumber	10000123030085	Anthony Joseph Barker	7PHNY0
+6.	HSBC	SortCodeAccountNumber	10000125273255	Aaron Mohamed Gibbs	XNC8QT
+7.	First Direct	SortCodeAccountNumber	10067321560931	Martin Lopez	1OOKZY
+8.	First Direct	SortCodeAccountNumber	10067517979386	Nigel Adam Andrews	9PIWAU
+9.	M&S Bank	SortCodeAccountNumber	10134310913114	William Norman Haynes	C3XABH
+10.	M&S Bank	SortCodeAccountNumber	10140110318838	Octavio Gomez	8NWC5Y
+11.	Bank A	SortCodeAccountNumber	10201410327392	Max Moreno	83H6Q6
+12.	Bank A	SortCodeAccountNumber	10201523894818	Katie Sarah Cox	YYT7IO
+13.	Bank A	SortCodeAccountNumber	10201711517730	Donna Ellie Ellis	OGNAVE
+14.	Bank A	SortCodeAccountNumber	10201726776967	Damian Dean Hammond	MJRA2A
+15.	Bank B	SortCodeAccountNumber	10268510380068	Callum Dominic Barnett	B3TE7U
+16.	Bank B	SortCodeAccountNumber	10268521755518	Kathleen Dorothy Wilson	YA994Z
+17.	Bank B	SortCodeAccountNumber	10268527589173	Lowe Ltd.	ERSIFX
+18.	Bank B	SortCodeAccountNumber	10268610519223	Gustavo Jimenez	6KUTS2
+19.	Bank C	SortCodeAccountNumber	10335610578233	Louise Catherine Robinson	6192RL
+20.	Bank C	SortCodeAccountNumber	10336015946288	Jenny Cabrera	B0WQT5
+21.	Bank C	SortCodeAccountNumber	10336328808656	Michael Antony Hughes	34JBWL
+22.	Bank C	SortCodeAccountNumber	10336622920193	Reece Bruce Smith	I7HOVK

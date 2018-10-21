@@ -1,0 +1,74 @@
+{
+    "Data": {
+      "Account": [
+        {
+          "AccountId": "AID118337",
+          "Currency": "GBP",
+          "Nickname": "Jack",
+          "Account": {
+            "SchemeName": "SortCodeAccountNumber",
+            "Identification": "10037610000001",
+            "Name": "Jemma Karen Hamilton",
+            "SecondaryIdentification": "A6R09R"
+          }
+        },
+        {
+          "AccountId": "AID585663",
+          "Currency": "GBP",
+          "Nickname": "Loui",
+          "Account": {
+            "SchemeName": "SortCodeAccountNumber",
+            "Identification": "10000110001966",
+            "Name": "Louis Ashley Lloyd",
+            "SecondaryIdentification": "7PHNY0"
+          }
+        },
+        {
+          "AccountId": "AID481529",
+          "Currency": "GBP",
+          "Nickname": "Mart",
+          "Account": {
+            "SchemeName": "SortCodeAccountNumber",
+            "Identification": "10067321560931",
+            "Name": "Martin  Lopez",
+            "SecondaryIdentification": "1OOKZY"
+          },
+          "Product": {
+              "AccountId": "AID481529",
+              "ProductIdentifier": "1004",
+              "ProductType": "PCA",
+              "ProductName": "Basic Bank Account",
+              "SecondaryProductIdentifier": "CURRENT_ACCOUNT"
+            }
+        },
+        {
+          "AccountId": "AID198006",
+          "Currency": "GBP",
+          "Nickname": "Will",
+          "Account": {
+            "SchemeName": "SortCodeAccountNumber",
+            "Identification": "10134310913114",
+            "Name": "William Norman Haynes",
+            "SecondaryIdentification": "C3XABH"
+          }
+        },
+        {
+          "AccountId": "AID689354",
+          "Currency": "GBP",
+          "Nickname": "Max ",
+          "Account": {
+            "SchemeName": "SortCodeAccountNumber",
+            "Identification": "10201410327392",
+            "Name": "Max  Moreno",
+            "SecondaryIdentification": "83H6Q6"
+          }
+        }
+      ]
+    },
+    "Links": {
+      "Self": "/accounts/"
+    },
+    "Meta": {
+      "TotalPages": 1
+    }
+  }

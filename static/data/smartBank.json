@@ -1,0 +1,102 @@
+[
+    {
+      "bankId": 1011,
+      "bankRegNumber": "ASD125",
+      "bankIdentificationCode": "1012",
+      "bankName": "NTB",
+      "country": "SL",
+      "registeredAddress": "ASD ASD ASD123",
+      "makerDate": 1522985304000,
+      "makerId": "1"
+    },
+    {
+      "bankId": 1012,
+      "bankRegNumber": "ASD126",
+      "bankIdentificationCode": "1012",
+      "bankName": "NTB",
+      "country": "UK",
+      "registeredAddress": "ADD ADD ADD123",
+      "makerDate": 1533652940000,
+      "makerId": "1"
+    },
+    {
+      "bankId": 1013,
+      "bankRegNumber": "AASS9DD12",
+      "bankIdentificationCode": "7055",
+      "bankName": "NTB",
+      "country": "SL",
+      "registeredAddress": "AA SS DD RR33",
+      "makerDate": 1524248071000,
+      "makerId": "1"
+    },
+    {
+      "bankId": 1014,
+      "bankRegNumber": "1099",
+      "bankIdentificationCode": "MMMMMM",
+      "bankName": "CITYBANK",
+      "country": "IN",
+      "registeredAddress": "chennai",
+      "makerDate": 1524292898000,
+      "makerId": "2"
+    },
+    {
+      "bankId": 1015,
+      "bankRegNumber": "ASD12467",
+      "bankIdentificationCode": "9999",
+      "bankName": "ABC",
+      "country": "UK",
+      "registeredAddress": "20 King St, London WC2E 8JF, UK",
+      "makerDate": 1524382883000,
+      "makerId": "1"
+    },
+    {
+      "bankId": 1016,
+      "bankRegNumber": "5tbgnh",
+      "bankIdentificationCode": "yhhnmj78",
+      "bankName": "HNB",
+      "country": "UK",
+      "registeredAddress": "test",
+      "makerDate": 1524676326000,
+      "makerId": "1"
+    },
+    {
+      "bankId": 1017,
+      "bankRegNumber": "ASD2345",
+      "bankIdentificationCode": "1016",
+      "bankName": "free gold",
+      "country": "sl",
+      "registeredAddress": "Colombo",
+      "makerDate": 1525414860000,
+      "makerId": "1"
+    },
+    {
+      "bankId": 1018,
+      "bankRegNumber": "1002323",
+      "bankIdentificationCode": "1019",
+      "bankName": "Test",
+      "country": "UK",
+      "registeredAddress": "Test Street",
+      "makerDate": 1525786394000,
+      "makerId": "1"
+    },
+    {
+      "bankId": 1019,
+      "bankRegNumber": "ASD12470",
+      "bankIdentificationCode": "9999",
+      "bankName": "ABC",
+      "country": "UK",
+      "registeredAddress": "20 King St, London WC2E 8JF, UK",
+      "makerDate": 1524382883000,
+      "makerId": "1"
+    },
+    {
+      "bankId": 1020,
+      "bankRegNumber": "ASD12471",
+      "bankIdentificationCode": "9999",
+      "bankName": "ABC",
+      "country": "UK",
+      "registeredAddress": "20 King St, London WC2E 8JF, UK",
+      "makerDate": 1524382883000,
+      "makerId": "1"
+    }
+  ]

@@ -7,8 +7,8 @@
         </v-container>                    
         <v-container align-center justify-center>
             <v-layout row wrap align-center justify-center>
-                    <h1 class="display-3 white--text text-xs-center hidden-sm-and-down">More ways to collect points and get rewarded</h1>
-                    <h1 class="display-1 white--text text-xs-center hidden-md-and-up">More ways to collect points and get rewarded</h1>
+                    <h1 class="display-3 white--text text-xs-center hidden-sm-and-down">Earn HSBC reward points faster!</h1>
+                    <h1 class="display-1 white--text text-xs-center hidden-md-and-up">Earn HSBC reward points faster!</h1>
             </v-layout>
         </v-container>
     <!-- https://codepen.io/HarrisWebApps/pen/ERPZZG -->

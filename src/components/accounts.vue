@@ -17,7 +17,7 @@
               </v-card-text>
             </v-card>
           </v-flex>
-
+{{ info }}
           <v-layout justify-center>
             <v-flex xs12>
               <div class="text-xs-center">
@@ -318,9 +318,11 @@
 </template>
 
 <script>
+    import axios from 'axios';
     export default {
         data () {
             return {
+                info: null,
                 homeLoan: false,
                 creditCard: false,
                 items: [
@@ -375,6 +377,11 @@
                 }
                 ]
             }
+        },
+        mounted () {
+          axios
+            .get('https://hsbcpointshack.firebaseapp.com/static/data/account')
+            .then(response => (this.info = response))
         }
     }
 </script>
