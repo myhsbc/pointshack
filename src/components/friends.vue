@@ -21,17 +21,17 @@
         <v-layout justify-center>
           <v-flex xs12>
             <div class="text-xs-center">
-              <v-btn outline color="indigo">
+              <v-btn outline color="indigo" @click="getFriends">
                 <v-icon left>person_add</v-icon>
                   Invite friends
               </v-btn>
             </div>     
           </v-flex>
         </v-layout>
-
+        <div v-if="showFriends == false">Click the button to demo the user experience journey.</div>
         <v-list v-for="item in items"
             :key="item.title"
-            avatar>
+            avatar v-if="showFriends">
           <v-list-tile>
             <v-list-tile-avatar>
               <img :src="item.avatar">
@@ -121,9 +121,12 @@
 </template>
 
 <script>
+    import axios from 'axios';
     export default {
         data () {
             return {
+              info: null,
+              showFriends: false,
               sheet: false,
               tiles: [
                 { img: 'https://image.flaticon.com/icons/svg/1028/1028159.svg', title: 'Transfer my points' },
@@ -133,14 +136,22 @@
                 { img: 'https://image.flaticon.com/icons/svg/1138/1138565.svg', title: 'Recommend accounts' }
               ],
               items: [
-                  { avatar: 'https://cdn.vuetifyjs.com/images/lists/1.jpg', title: 'Sam Chuang' },
-                  { avatar: 'https://cdn.vuetifyjs.com/images/lists/2.jpg', title: 'Enzo Lai' },
-                  { avatar: 'https://cdn.vuetifyjs.com/images/lists/3.jpg', title: 'Cecilia Tan' },
-                  { avatar: 'https://cdn.vuetifyjs.com/images/lists/4.jpg', title: 'Krupesh Doshi' },
-                  { avatar: 'https://cdn.vuetifyjs.com/images/lists/5.jpg', title: 'Mark Mei' },
-                  { avatar: 'https://cdn.vuetifyjs.com/images/lists/6.jpg', title: 'Vicki Yang' }
+                  { avatar: 'https://randomuser.me/api/portraits/men/1.jpg', title: 'Sam Chuang' },
+                  { avatar: 'https://randomuser.me/api/portraits/men/26.jpg', title: 'Enzo Lai' },
+                  { avatar: 'https://randomuser.me/api/portraits/women/2.jpg', title: 'Cecilia Tan' },
+                  { avatar: 'https://randomuser.me/api/portraits/men/7.jpg', title: 'Krupesh Doshi' },
+                  { avatar: 'https://randomuser.me/api/portraits/men/4.jpg', title: 'Mark Mei' },
+                  { avatar: 'https://randomuser.me/api/portraits/women/8.jpg', title: 'Vicki Yang' }
               ]
             }
+        },
+        methods: {
+          getFriends: function () {
+            axios
+              .get('https://graph.facebook.com/me/friends?fields=id.name')
+              .then(response => (this.info = response));
+            this.showFriends = true;
+          }         
         }
     }
 </script>
