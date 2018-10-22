@@ -29,7 +29,8 @@
             </v-flex>
           </v-layout>
     
-          <v-flex xs12 v-if="show">
+          <transition name="fade">
+            <v-flex xs12 v-if="show">
             <v-card>
               <v-card-text primary-title>
                 <div class="title">Refinance my mortgage</div>
@@ -101,8 +102,10 @@
               </v-card-actions>
             </v-card>
           </v-flex>
+          </transition>
 
-          <v-flex xs12 v-if="show">
+          <transition name="fade">
+            <v-flex xs12 v-if="show">
             <v-card>
               <v-card-text primary-title>
                 <div class="title">Credit card balance transfer</div>
@@ -174,8 +177,10 @@
               </v-card-actions>
             </v-card>
           </v-flex>
+          </transition>
 
-          <v-flex xs12 v-if="show">
+          <transition name="fade">
+            <v-flex xs12 v-if="show">
             <v-card>
               <v-card-text primary-title>
                 <div class="title">Open Everyday Global Account</div>
@@ -189,8 +194,10 @@
               </v-card-actions>
             </v-card>
           </v-flex>
+          </transition>
 
-          <v-flex xs12 v-if="show">
+          <transition name="fade">
+            <v-flex xs12 v-if="show">
             <v-card>
               <v-card-text primary-title>
                 <div class="title">Transfer my salary credit</div>
@@ -204,6 +211,7 @@
               </v-card-actions>
             </v-card>
           </v-flex>
+          </transition>
 
           <v-flex xs12>
             <v-card>
@@ -305,94 +313,6 @@
         </v-layout>
       </v-container>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      <!-- <div class="text-xs-right">
-        <v-btn outline color="indigo" class="ma-4">
-          <v-icon left>add</v-icon>
-            accounts
-        </v-btn>
-      </div>         
-      <v-card>
-        <v-list>
-          <v-list-group
-            v-for="item in items"
-            v-model="item.active"
-            :key="item.title"
-            :prepend-icon="item.action"
-            no-action
-          >
-            <v-list-tile slot="activator">
-              <v-list-tile-content>
-                <v-list-tile-title>{{ item.title }}</v-list-tile-title>
-              </v-list-tile-content>
-            </v-list-tile>
-
-            <v-list-tile
-              v-for="subItem in item.items"
-              :key="subItem.title"
-              @click.stop.prevent="dialog = true" 
-            >
-              <v-list-tile-content>
-                <v-list-tile-title>{{ subItem.title }}</v-list-tile-title>
-              </v-list-tile-content>
-
-              <v-list-tile-action>
-                <v-icon>{{ subItem.action }}</v-icon>
-              </v-list-tile-action>
-            </v-list-tile>
-          </v-list-group>
-        </v-list>
-
-        <v-dialog
-          v-model="dialog"
-          absolute
-          max-width="400"
-          persistent
-        >
-          <v-card>
-            <v-card-title class="headline grey lighten-3">More information</v-card-title>
-            <v-card-text>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </v-card-text>
-            <v-divider></v-divider>
-            <v-card-actions>
-              <v-btn
-                flat
-                @click="agreement = false, dialog = false"
-              >
-                Cancel
-              </v-btn>
-              <v-spacer></v-spacer>
-              <v-btn
-                class="white--text"
-                color="red"
-                @click="agreement = true, dialog = false"
-              >
-                Enquire
-              </v-btn>
-            </v-card-actions>
-          </v-card>
-        </v-dialog>         -->
       </v-card>
     </v-flex>
   </v-layout>

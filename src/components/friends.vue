@@ -21,14 +21,25 @@
         <v-layout justify-center>
           <v-flex xs12>
             <div class="text-xs-center">
-              <v-btn outline color="indigo" @click="getFriends">
+
+      <v-menu bottom offset-y>
+              <v-btn outline color="indigo" slot="activator">
                 <v-icon left>person_add</v-icon>
                   Invite friends
               </v-btn>
+              <v-list>
+                <v-list-tile v-for="(menu, i) in menu" :key="i" @click="getFriends">
+                  <v-list-tile-title>{{ menu.title }}</v-list-tile-title>
+                </v-list-tile>
+              </v-list>
+      </v-menu>
+
+
             </div>     
           </v-flex>
         </v-layout>
         <div v-if="showFriends == false">Click "Invite Friends" to show demo</div>
+        
         <v-list v-for="item in items"
             :key="item.title"
             avatar v-if="showFriends">
@@ -142,7 +153,21 @@
                   { avatar: 'https://randomuser.me/api/portraits/men/7.jpg', title: 'Krupesh Doshi' },
                   { avatar: 'https://randomuser.me/api/portraits/men/4.jpg', title: 'Mark Mei' },
                   { avatar: 'https://randomuser.me/api/portraits/women/8.jpg', title: 'Vicki Yang' }
-              ]
+              ],
+              menu: [
+                {
+                  title: 'Facebook'
+                },
+                {
+                  title: 'LinkedIn'
+                },
+                {
+                  title: 'Twitter'
+                },
+                {
+                  title: 'Google+'
+                }
+              ],
             }
         },
         methods: {

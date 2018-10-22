@@ -1,0 +1,111 @@
+[
+    {
+      "cardId": 100000025,
+      "cardNumber": "4210-0882-0546-3061",
+      "bankId": 1001,
+      "expiry": 1899727765000,
+      "cardOwnerName": "Card Holder Name",
+      "accountOwnerId": 100000025,
+      "account": {
+        "accountId": 10000025,
+        "schemeName": "SortCodeAccountNumber",
+        "accountIdentification": "10023810000025",
+        "secondaryIdentification": "9T7XB4",
+        "banks": {
+          "bankId": 1001,
+          "bankRegNumber": "MIDLGB21",
+          "bankIdentificationCode": "1001",
+          "bankName": "HSBC",
+          "country": "UK",
+          "registeredAddress": "3, The Square, Beeston, NG9 2AN, UK",
+          "makerDate": 1528966679000,
+          "makerId": "1"
+        },
+        "branches": {
+          "branchId": 10000237,
+          "banks": {
+            "bankId": 1001,
+            "bankRegNumber": "MIDLGB21",
+            "bankIdentificationCode": "1001",
+            "bankName": "HSBC",
+            "country": "UK",
+            "registeredAddress": "3, The Square, Beeston, NG9 2AN, UK",
+            "makerDate": 1528966679000,
+            "makerId": "1"
+          },
+          "unitName": "Thetford",
+          "unitType": "P",
+          "address": "36, King Street, Thetford, IP24 2AS, GB",
+          "postCode": "IP24 2AS",
+          "markerDate": 1528965092000,
+          "markerId": "1"
+        },
+        "accountName": "Oliver Kyle Ali",
+        "nickName": "Oliv",
+        "product": {
+          "productId": 1001,
+          "productName": "Basic Bank Account",
+          "creationDate": 1528964657000,
+          "banks": {
+            "bankId": 1001,
+            "bankRegNumber": "MIDLGB21",
+            "bankIdentificationCode": "1001",
+            "bankName": "HSBC",
+            "country": "UK",
+            "registeredAddress": "3, The Square, Beeston, NG9 2AN, UK",
+            "makerDate": 1528966679000,
+            "makerId": "1"
+          },
+          "productType": "CURRENT_ACCOUNT",
+          "productSubType": "CURRENT_ACCOUNT",
+          "productGroup": "PCA",
+          "enumInterstCalcBalance": "MINIMUM",
+          "makerDate": 1528964657000,
+          "makerId": "1"
+        },
+        "accountCurrency": "GBP",
+        "balance": 80984.94,
+        "status": "Active",
+        "typeOfBalance": "ClosingAvailable",
+        "accountOpeningDate": 1425807916000,
+        "accountClosingDate": 1678268716000,
+        "accountType": {
+          "accountTypeId": 1001,
+          "banks": {
+            "bankId": 1001,
+            "bankRegNumber": "MIDLGB21",
+            "bankIdentificationCode": "1001",
+            "bankName": "HSBC",
+            "country": "UK",
+            "registeredAddress": "3, The Square, Beeston, NG9 2AN, UK",
+            "makerDate": 1528966679000,
+            "makerId": "1"
+          },
+          "accountType": "PCA",
+          "accountSubType": "CURRENT_ACCOUNT",
+          "description": "PCA",
+          "active": "Y"
+        },
+        "accountRefNumber": "XXXX",
+        "isJointAccount": "N",
+        "isOnlineAccessEnabled": "Y",
+        "cardFacility": "Y",
+        "passBookFacility": "Y",
+        "chequeBookFacility": "Y",
+        "frozen": "N",
+        "noDebit": "N",
+        "noCredit": "N",
+        "creditDebitIndicator": "Debit",
+        "creditLineIncluded": "N",
+        "creditLineAmount": 0,
+        "creditLineType": "None",
+        "makerDate": 1520502316000,
+        "makerId": "1"
+      },
+      "gatewayName": "Visa",
+      "cardType": "debit",
+      "isValid": 1,
+      "makerDate": 1521036565000,
+      "makerId": "1"
+    }
+  ]
